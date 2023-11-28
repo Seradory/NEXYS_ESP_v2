@@ -1,0 +1,52 @@
+#ifndef UART_COM_H
+#define UART_COM_H
+
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xintc.h"
+#include "xil_exception.h"
+#include "xuartlite.h"
+
+
+
+#define INTC_DEVICE_ID          XPAR_INTC_0_DEVICE_ID
+#define UARTLITE_INT_IRQ_ID     XPAR_INTC_0_UARTLITE_0_VEC_ID
+#define UARTLITE_DEVICE_ID      XPAR_UARTLITE_0_DEVICE_ID
+
+class uart_com{
+private:
+
+
+public:
+	uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+};
+#endif

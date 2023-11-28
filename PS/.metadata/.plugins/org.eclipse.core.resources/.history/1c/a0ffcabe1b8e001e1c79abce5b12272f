@@ -1,0 +1,72 @@
+#include "uart_com.h"
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xintc.h"
+#include "xil_exception.h"
+#include "xuartlite.h"
+
+
+
+
+
+
+
+
+uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XIntc* InterruptController,u32 XINTC_DEV_ID,char* Recv_Array,int is_first_interrupt){
+
+
+
+
+	XUartLite_Initialize(UPTR, ULITE_DEVICE_ID);
+	//XUartLite_SetSendHandler(UPTR, SendHandler, UPTR);
+	XUartLite_SetRecvHandler(UPTR, RecvHandler, UPTR);
+	XUartLite_EnableInterrupt(UPTR);
+
+	if(is_first_interrupt)
+	{
+		XIntc_Initialize(&InterruptController, XINTC_DEV_ID);
+	};
+
+	XIntc_Connect(InterruptController, ULITE_INT_IRQ_ID,(XInterruptHandler)XUartLite_InterruptHandler,(void *)UPTR);
+	if(is_first_interrupt)
+	{
+		XIntc_Start(InterruptController, XIN_REAL_MODE);
+		Xil_ExceptionInit();
+		Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler,&InterruptController);
+		Xil_ExceptionEnable();
+	};
+
+
+
+
+
+
+	};
+
+void uart_com::uart_com_send(char* Send_Array,int length)
+{
+	XUartLite_Send(UPTR, Send_Array, length);
+}
+
+void uart_com::uart_com_int_enable()
+{
+	XIntc_Enable(InterruptController, ULITE_INT_IRQ_ID);
+}
+
+void uart_com::uart_com_int_disable()
+{
+	XIntc_Disable(InterruptController, ULITE_INT_IRQ_ID);
+}
+
+
+
+
+void uart_com::SendHandler(void* CallbackRef, unsigned int EventData) {
+    //uart_com* uartInstance = static_cast<uart_com*>(CallbackRef);
+    // Burada SendHandler iþlemleri gerçekleþtirin
+}
+
+void uart_com::RecvHandler(void* CallbackRef, unsigned int EventData) {
+
+	XUartLite_Recv(UPTR, single_bit_buffer, 1);
+}

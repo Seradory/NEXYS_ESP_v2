@@ -1,0 +1,14 @@
+#include "uart_com.h"
+
+
+
+
+
+
+
+
+
+uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XIntc* InterruptController,char* Recv_Array){
+
+
+};

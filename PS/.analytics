@@ -1,0 +1,142 @@
+timestamp=[2023-11-28 20:12:44], mode=WORKBENCH_START, duration=0:00:05.148, duration_ms=5148, data={}
+timestamp=[2023-11-28 20:12:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.376, duration_ms=376, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-11-28 20:12:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:04.036, duration_ms=4036, data={}
+timestamp=[2023-11-28 20:13:16], mode=APP_CREATION, duration=0:00:05.710, duration_ms=5710, data={name=ESP_APP, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2023-11-28 20:14:00], mode=PLATFORM_GENERATION, duration=0:00:07.524, duration_ms=7524, data={name=design_1_wrapper}
+timestamp=[2023-11-28 20:14:02], mode=BUILD, duration=0:00:01.396, duration_ms=1396, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:14:02], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:15:41], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:15:41], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:18:17], mode=BUILD, duration=0:00:00.837, duration_ms=837, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:18:17], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:19:16], mode=BUILD, duration=0:00:00.761, duration_ms=761, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:19:16], mode=BUILD, duration=0:00:00.104, duration_ms=104, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:20:43], mode=PLATFORM_GENERATION, duration=0:00:06.816, duration_ms=6816, data={name=design_1_wrapper}
+timestamp=[2023-11-28 20:20:44], mode=BUILD, duration=0:00:00.895, duration_ms=895, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:20:44], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:22:26], mode=BUILD, duration=0:00:00.621, duration_ms=621, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:22:26], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:25:56], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:25:56], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:26:46], mode=BUILD, duration=0:00:00.739, duration_ms=739, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:26:46], mode=BUILD, duration=0:00:00.102, duration_ms=102, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:27:43], mode=BUILD, duration=0:00:00.228, duration_ms=228, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:27:43], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:35:04], mode=BUILD, duration=0:00:00.890, duration_ms=890, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:35:04], mode=BUILD, duration=0:00:00.134, duration_ms=134, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:35:40], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:35:40], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:36:36], mode=PLATFORM_GENERATION, duration=0:00:01.479, duration_ms=1479, data={name=design_1_wrapper}
+timestamp=[2023-11-28 20:36:36], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:36:36], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:36:42], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:36:43], mode=BUILD, duration=0:00:00.103, duration_ms=103, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:37:23], mode=BUILD, duration=0:00:00.424, duration_ms=424, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:37:23], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:37:33], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:37:34], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:37:47], mode=BUILD, duration=0:00:00.752, duration_ms=752, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:37:48], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:38:43], mode=BUILD, duration=0:00:00.487, duration_ms=487, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:38:44], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:39:32], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:39:32], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:47:41], mode=PLATFORM_GENERATION, duration=0:00:01.329, duration_ms=1329, data={name=design_1_wrapper}
+timestamp=[2023-11-28 20:47:42], mode=BUILD, duration=0:00:00.815, duration_ms=815, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 20:47:42], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:06:26], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:06:27], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:07:12], mode=BUILD, duration=0:00:00.552, duration_ms=552, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:07:13], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:07:23], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:07:23], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:07:52], mode=BUILD, duration=0:00:00.541, duration_ms=541, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:07:52], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:22:42], mode=BUILD, duration=0:00:00.232, duration_ms=232, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:22:43], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:23:18], mode=BUILD, duration=0:00:00.300, duration_ms=300, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:23:19], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:26:28], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:26:29], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:27:12], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:27:12], mode=BUILD, duration=0:00:00.133, duration_ms=133, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:27:20], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:27:21], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:28:02], mode=BUILD, duration=0:00:00.235, duration_ms=235, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:28:02], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:29:31], mode=BUILD, duration=0:00:00.245, duration_ms=245, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:29:31], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:29:47], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:29:48], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:30:33], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:30:34], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:30:47], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:30:48], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:32:51], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:32:51], mode=BUILD, duration=0:00:00.106, duration_ms=106, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:33:00], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:33:00], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:33:41], mode=BUILD, duration=0:00:00.242, duration_ms=242, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:33:41], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:35:02], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:35:03], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:35:16], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:35:16], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:37:44], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:37:44], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:37:49], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:37:49], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:38:10], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:38:10], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:39:25], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:39:25], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:39:48], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:39:48], mode=BUILD, duration=0:00:00.138, duration_ms=138, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:41:37], mode=BUILD, duration=0:00:00.307, duration_ms=307, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:41:37], mode=BUILD, duration=0:00:00.102, duration_ms=102, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:41:56], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:41:57], mode=BUILD, duration=0:00:00.114, duration_ms=114, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:42:39], mode=BUILD, duration=0:00:00.350, duration_ms=350, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:42:40], mode=BUILD, duration=0:00:00.142, duration_ms=142, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:42:48], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:42:48], mode=BUILD, duration=0:00:00.144, duration_ms=144, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:43:55], mode=BUILD, duration=0:00:00.729, duration_ms=729, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:43:56], mode=BUILD, duration=0:00:00.122, duration_ms=122, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:52:38], mode=BUILD, duration=0:00:00.745, duration_ms=745, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:52:38], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:54:08], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:54:08], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:54:23], mode=BUILD, duration=0:00:00.492, duration_ms=492, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:54:24], mode=BUILD, duration=0:00:00.111, duration_ms=111, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:54:48], mode=BUILD, duration=0:00:01.177, duration_ms=1177, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:54:48], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:59:33], mode=PLATFORM_GENERATION, duration=0:00:01.396, duration_ms=1396, data={name=design_1_wrapper}
+timestamp=[2023-11-28 21:59:33], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 21:59:34], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:01:17], mode=PLATFORM_GENERATION, duration=0:00:01.846, duration_ms=1846, data={name=design_1_wrapper}
+timestamp=[2023-11-28 22:01:23], mode=PLATFORM_GENERATION, duration=0:00:01.702, duration_ms=1702, data={name=design_1_wrapper}
+timestamp=[2023-11-28 22:01:23], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=ESP_APP, configuration=Debug, clean_build=true}
+timestamp=[2023-11-28 22:01:23], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=ESP_APP_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-28 22:01:55], mode=PLATFORM_GENERATION, duration=0:00:07.128, duration_ms=7128, data={name=design_1_wrapper}
+timestamp=[2023-11-28 22:01:56], mode=BUILD, duration=0:00:01.181, duration_ms=1181, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:01:57], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:15], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:15], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:36], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:36], mode=BUILD, duration=0:00:00.103, duration_ms=103, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:47], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:47], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:51], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:03:52], mode=BUILD, duration=0:00:00.106, duration_ms=106, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:05:13], mode=BUILD, duration=0:00:00.487, duration_ms=487, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:05:13], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:07:28], mode=PLATFORM_GENERATION, duration=0:00:01.385, duration_ms=1385, data={name=design_1_wrapper}
+timestamp=[2023-11-28 22:07:29], mode=BUILD, duration=0:00:00.614, duration_ms=614, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:07:30], mode=BUILD, duration=0:00:00.121, duration_ms=121, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:08:34], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:08:35], mode=BUILD, duration=0:00:00.104, duration_ms=104, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:09:12], mode=BUILD, duration=0:00:00.613, duration_ms=613, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:09:12], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:15:29], mode=PLATFORM_GENERATION, duration=0:00:01.435, duration_ms=1435, data={name=design_1_wrapper}
+timestamp=[2023-11-28 22:15:29], mode=BUILD, duration=0:00:00.170, duration_ms=170, data={name=ESP_APP, configuration=Debug, clean_build=false}
+timestamp=[2023-11-28 22:15:30], mode=BUILD, duration=0:00:00.137, duration_ms=137, data={name=ESP_APP_system, configuration=Debug, clean_build=false}
