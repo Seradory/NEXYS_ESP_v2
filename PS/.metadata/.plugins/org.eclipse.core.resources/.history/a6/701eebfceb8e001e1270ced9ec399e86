@@ -20,7 +20,7 @@ uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XInt
 
 
 	XUartLite_Initialize(UPTR, ULITE_DEVICE_ID);
-	XUartLite_SetSendHandler(UPTR, SendHandler, UPTR);
+	//XUartLite_SetSendHandler(UPTR, SendHandler, UPTR);
 	XUartLite_SetRecvHandler(UPTR, FuncPtr, UPTR);
 	XUartLite_EnableInterrupt(UPTR);
 
@@ -62,7 +62,7 @@ void uart_com::uart_com_int_disable()
 
 void SendHandler(void* CallbackRef, unsigned int EventData) {
     //uart_com* uartInstance = static_cast<uart_com*>(CallbackRef);
-
+    // Burada SendHandler iþlemleri gerçekleþtirin
 }
 
 

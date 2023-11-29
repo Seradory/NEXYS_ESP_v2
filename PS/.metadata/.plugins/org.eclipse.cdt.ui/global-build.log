@@ -1,18 +1,11 @@
 Nothing to build in platform 'design_1_wrapper'
 
-21:57:25 **** Incremental Build of configuration Debug for project ESP_APP ****
+22:17:54 **** Incremental Build of configuration Debug for project ESP_APP ****
 make all 
-'Building file: ../src/main.cpp'
+'Building file: ../src/uart_com.cpp'
 'Invoking: MicroBlaze g++ compiler'
-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
-In file included from ../src/main.cpp:8:
-../src/Timer.h:15: warning: "TIMER_INT_ID" redefined
-   15 | #define TIMER_INT_ID XPAR_MICROBLAZE_0_AXI_INTC_MYTIMER_0_INTERRUPT_INTR
-      | 
-../src/Timer.h:10: note: this is the location of the previous definition
-   10 | #define TIMER_INT_ID 1
-      | 
-'Finished building: ../src/main.cpp'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_com.o" -IC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uart_com.d" -MT"src/uart_com.o" -o "src/uart_com.o" "../src/uart_com.cpp"
+'Finished building: ../src/uart_com.cpp'
 ' '
 'Building target: ESP_APP.elf'
 'Invoking: MicroBlaze g++ linker'
@@ -25,6 +18,6 @@ mb-size ESP_APP.elf  |tee "ESP_APP.elf.size"
   10284	    348	   3392	  14024	   36c8	ESP_APP.elf
 'Finished building: ESP_APP.elf.size'
 ' '
-21:57:26 **** Incremental Build of configuration Debug for project ESP_APP_system ****
+22:17:55 **** Incremental Build of configuration Debug for project ESP_APP_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -62,7 +62,7 @@ void uart_com::uart_com_int_disable()
 
 void SendHandler(void* CallbackRef, unsigned int EventData) {
     //uart_com* uartInstance = static_cast<uart_com*>(CallbackRef);
-
+    // Burada SendHandler iþlemleri gerçekleþtirin
 }
 
 
