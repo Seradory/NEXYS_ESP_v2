@@ -1,7 +1,7 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.1 (win64) Build 2902540 Wed May 27 19:54:49 MDT 2020
--- Date        : Tue Nov 28 19:22:08 2023
+-- Date        : Wed Nov 29 20:14:10 2023
 -- Host        : DESKTOP-5H8FS8B running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               c:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/NEXYS_ESP.srcs/sources_1/bd/design_1/ip/design_1_microblaze_0_0/design_1_microblaze_0_0_sim_netlist.vhdl

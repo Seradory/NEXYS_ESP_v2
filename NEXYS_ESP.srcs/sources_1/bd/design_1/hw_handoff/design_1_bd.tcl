@@ -291,7 +291,7 @@ proc create_root_design { parentCell } {
    CONFIG.C_D_AXI {1} \
    CONFIG.C_D_LMB {1} \
    CONFIG.C_I_LMB {1} \
-   CONFIG.G_USE_EXCEPTIONS {1} \
+   CONFIG.G_USE_EXCEPTIONS {0} \
  ] $microblaze_0
 
   # Create instance: microblaze_0_axi_intc, and set properties

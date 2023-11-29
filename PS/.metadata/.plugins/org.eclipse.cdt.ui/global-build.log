@@ -1,6 +1,6 @@
 Nothing to build in platform 'design_1_wrapper'
 
-22:09:11 **** Incremental Build of configuration Debug for project ESP_APP ****
+21:54:41 **** Incremental Build of configuration Debug for project ESP_APP ****
 make all 
 'Building file: ../src/main.cpp'
 'Invoking: MicroBlaze g++ compiler'
@@ -15,18 +15,9 @@ mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/alise/Desktop/VIVADO/PROJECTS/NEX
 'Invoking: MicroBlaze Print Size'
 mb-size ESP_APP.elf  |tee "ESP_APP.elf.size"
    text	   data	    bss	    dec	    hex	filename
-   6540	    340	   3320	  10200	   27d8	ESP_APP.elf
+   6580	    348	   3392	  10320	   2850	ESP_APP.elf
 'Finished building: ESP_APP.elf.size'
 ' '
-22:09:12 **** Incremental Build of configuration Debug for project ESP_APP_system ****
-make all 
-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
-22:15:27 **** Incremental Build of project design_1_wrapper ****
-buildplatform.bat 65117 design_1_wrapper no_domain_build 
-XSDB Server Channel: tcfchan#26
-22:15:29 **** Incremental Build of configuration Debug for project ESP_APP ****
-make all 
-make: Nothing to be done for 'all'.
-22:15:30 **** Incremental Build of configuration Debug for project ESP_APP_system ****
+21:54:42 **** Incremental Build of configuration Debug for project ESP_APP_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

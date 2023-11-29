@@ -1,6 +1,6 @@
-2023-11-28T22:15:30.025724600255-22:15:30 **** Incremental Build of configuration Debug for project ESP_APP_system ****
+2023-11-29T21:54:42.803332700255-21:54:42 **** Incremental Build of configuration Debug for project ESP_APP_system ****
 000-make all 
 000-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 00255-
-22:15:30 Build Finished (took 129ms)
+21:54:42 Build Finished (took 104ms)
 

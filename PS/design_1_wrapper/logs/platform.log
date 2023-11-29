@@ -4352,3 +4352,1505 @@ TRACE::2023-11-28.22:15:29::SCWMssOS::Checking the sw design at  C:/Users/alise/
 TRACE::2023-11-28.22:15:29::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
 
 TRACE::2023-11-28.22:15:29::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:38::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:38::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:38::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWReader::Active system found as  design_1_wrapper
+TRACE::2023-11-29.19:57:40::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2023-11-29.19:57:40::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-29.19:57:40::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.19:57:40::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.19:57:40::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:40::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:40::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:40::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:40::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.19:57:40::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.19:57:40::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.19:57:40::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-11-29.19:57:40::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:40::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWReader::No isolation master present  
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:40::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:40::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:40::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:40::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:40::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::In reload Mss file.
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+KEYINFO::2023-11-29.19:57:41::SCWMssOS::Could not open the swdb for system
+KEYINFO::2023-11-29.19:57:41::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2023-11-29.19:57:41::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-29.19:57:41::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.19:57:41::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.19:57:41::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.19:57:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.19:57:41::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.19:57:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.19:57:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.19:57:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.19:57:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.19:57:41::SCWMssOS::Removing the swdes entry for  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+LOG::2023-11-29.20:14:24::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-11-29.20:14:24::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-29.20:14:24::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-11-29.20:14:24::SCWSystem::Checking the domain domain_microblaze_0
+LOG::2023-11-29.20:14:24::SCWSystem::Not a boot domain 
+LOG::2023-11-29.20:14:24::SCWSystem::Started Processing the domain domain_microblaze_0
+TRACE::2023-11-29.20:14:24::SCWDomain::Generating domain artifcats
+TRACE::2023-11-29.20:14:24::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-29.20:14:24::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-29.20:14:24::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:14:24::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:14:24::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-29.20:14:24::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:14:24::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:14:24::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::Completed writing the mss file at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2023-11-29.20:14:24::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-29.20:14:24::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-29.20:14:24::SCWDomain::Skipping the build for domain :  domain_microblaze_0
+TRACE::2023-11-29.20:14:24::SCWMssOS::skipping the bsp build ... 
+TRACE::2023-11-29.20:14:24::SCWMssOS::Copying to export directory.
+TRACE::2023-11-29.20:14:24::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-29.20:14:24::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-29.20:14:24::SCWSystem::Completed Processing the domain domain_microblaze_0
+LOG::2023-11-29.20:14:24::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-11-29.20:14:24::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-11-29.20:14:24::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-29.20:14:24::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-11-29.20:14:24::SCWSystem::dir created 
+TRACE::2023-11-29.20:14:24::SCWSystem::Writing the bif 
+TRACE::2023-11-29.20:14:24::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-29.20:14:24::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-29.20:14:24::SCWPlatform::Completed generating the platform
+TRACE::2023-11-29.20:14:24::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:14:24::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:14:24::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:14:24::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:14:24::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:14:24::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:14:24::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c72c26177a521c6a056a66b5a78daf8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"axi_uartlite_1",
+							"stdout":	"axi_uartlite_1",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-29.20:14:24::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-29.20:14:24::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:14:24::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:14:24::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.20:14:24::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:14:24::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:14:24::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:14:24::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform location is C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:27::SCWMssOS::Doing hw sync for the mss in domain: domain_microblaze_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:27::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:27::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/tempdsa/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::update - Opened existing hwdb design_1_wrapper_2
+TRACE::2023-11-29.20:17:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:27::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:17:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:17:27::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:17:27::SCWMssOS::Completed hw sync for the mss in domain: domain_microblaze_0
+TRACE::2023-11-29.20:17:27::SCWMssOS::Removing the swdes entry for  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-29.20:17:27::SCWPlatform::Opened new HwDB with name design_1_wrapper_3
+TRACE::2023-11-29.20:17:27::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:17:27::SCWMssOS::Writing the mss file completed C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:27::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:27::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_3
+TRACE::2023-11-29.20:17:27::SCWPlatform::Opened existing hwdb design_1_wrapper_3
+TRACE::2023-11-29.20:17:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:27::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:27::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:27::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c72c26177a521c6a056a66b5a78daf8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"axi_uartlite_1",
+							"stdout":	"axi_uartlite_1",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-29.20:17:28::SCWPlatform::Clearing the existing platform
+TRACE::2023-11-29.20:17:28::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-11-29.20:17:28::SCWMssOS::Removing the swdes entry for  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWSystem::Clearing the domains completed.
+TRACE::2023-11-29.20:17:28::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform location is C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Removing the HwDB with name C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened new HwDB with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWReader::Active system found as  design_1_wrapper
+TRACE::2023-11-29.20:17:28::SCWReader::Handling sysconfig design_1_wrapper
+TRACE::2023-11-29.20:17:28::SCWDomain::checking for install qemu data   : 
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-29.20:17:28::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:17:28::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:17:28::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:28::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:28::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:28::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:28::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:17:28::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:17:28::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:17:28::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-11-29.20:17:28::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:28::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:28::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Opened existing hwdb design_1_wrapper_4
+TRACE::2023-11-29.20:17:28::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:28::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:28::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:28::SCWReader::No isolation master present  
+TRACE::2023-11-29.20:17:36::SCWMssOS::cleaning the bsp 
+TRACE::2023-11-29.20:17:36::SCWMssOS::System Command Ran  C: & cd  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp & make clean 
+TRACE::2023-11-29.20:17:36::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s clean 
+
+TRACE::2023-11-29.20:17:36::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s clean 
+
+TRACE::2023-11-29.20:17:36::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s clean 
+
+TRACE::2023-11-29.20:17:36::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s clean 
+
+TRACE::2023-11-29.20:17:36::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s clean 
+
+TRACE::2023-11-29.20:17:36::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-11-29.20:17:40::SCWMssOS::cleaning the bsp 
+TRACE::2023-11-29.20:17:40::SCWMssOS::System Command Ran  C: & cd  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp & make clean 
+TRACE::2023-11-29.20:17:40::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s clean 
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s clean 
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s clean 
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s clean 
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s clean 
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_4
+TRACE::2023-11-29.20:17:41::SCWPlatform::Could not get the HWDB from existing dbname
+TRACE::2023-11-29.20:17:41::SCWPlatform::Do not have an existing db opened. Attempting to open the hwDb. 
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened new HwDB with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::In reload Mss file.
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+KEYINFO::2023-11-29.20:17:41::SCWMssOS::Could not open the swdb for system
+KEYINFO::2023-11-29.20:17:41::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-29.20:17:41::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:17:41::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:17:41::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:17:41::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:17:41::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:41::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:41::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:41::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:41::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:17:41::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:41::SCWMssOS::Removing the swdes entry for  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:47::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:47::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:47::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:47::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:47::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:47::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:47::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:47::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:47::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-29.20:17:47::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:47::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:47::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:47::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:17:47::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:17:47::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:47::SCWMssOS::Completed writing the mss file at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2023-11-29.20:17:47::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2023-11-29.20:17:58::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-11-29.20:17:58::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-29.20:17:58::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-11-29.20:17:58::SCWSystem::Checking the domain domain_microblaze_0
+LOG::2023-11-29.20:17:58::SCWSystem::Not a boot domain 
+LOG::2023-11-29.20:17:58::SCWSystem::Started Processing the domain domain_microblaze_0
+TRACE::2023-11-29.20:17:58::SCWDomain::Generating domain artifcats
+TRACE::2023-11-29.20:17:58::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-29.20:17:58::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-29.20:17:58::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:58::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:58::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:58::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:17:58::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:17:58::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:17:58::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:17:58::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:17:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:17:58::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:58::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+KEYINFO::2023-11-29.20:17:58::SCWMssOS::Could not open the swdb for system
+KEYINFO::2023-11-29.20:17:58::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-29.20:17:58::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:58::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:58::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:58::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:17:58::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:17:58::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:58::SCWMssOS::Completed writing the mss file at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2023-11-29.20:17:58::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:17:58::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-29.20:17:58::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-29.20:17:58::SCWDomain::Building the domain as part of full build :  domain_microblaze_0
+TRACE::2023-11-29.20:17:58::SCWMssOS::doing bsp build ... 
+TRACE::2023-11-29.20:17:58::SCWMssOS::System Command Ran  C: & cd  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp & make 
+TRACE::2023-11-29.20:17:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_4/src"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-29.20:17:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-29.20:17:58::SCWMssOS::-Wextra"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_11/src"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-29.20:17:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-29.20:17:58::SCWMssOS::-Wextra"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_11/src"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-29.20:17:58::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-11-29.20:17:58::SCWMssOS:: -Wextra"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_2/src"
+
+TRACE::2023-11-29.20:17:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-11-29.20:17:58::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-11-29.20:17:58::SCWMssOS::-Wall -Wextra"
+
+TRACE::2023-11-29.20:17:59::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2023-11-29.20:17:59::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-11-29.20:17:59::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-11-29.20:17:59::SCWMssOS::all -Wextra"
+
+TRACE::2023-11-29.20:17:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_4/src"
+
+TRACE::2023-11-29.20:17:59::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-29.20:17:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-29.20:17:59::SCWMssOS::xtra"
+
+TRACE::2023-11-29.20:17:59::SCWMssOS::"Compiling bram"
+
+TRACE::2023-11-29.20:18:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_11/src"
+
+TRACE::2023-11-29.20:18:00::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-29.20:18:00::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-29.20:18:00::SCWMssOS::xtra"
+
+TRACE::2023-11-29.20:18:00::SCWMssOS::"Compiling cpu"
+
+TRACE::2023-11-29.20:18:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_11/src"
+
+TRACE::2023-11-29.20:18:00::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-11-29.20:18:00::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-11-29.20:18:00::SCWMssOS::extra"
+
+TRACE::2023-11-29.20:18:00::SCWMssOS::"Compiling intc"
+
+TRACE::2023-11-29.20:18:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_2/src"
+
+TRACE::2023-11-29.20:18:01::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-11-29.20:18:01::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-11-29.20:18:01::SCWMssOS::ll -Wextra"
+
+TRACE::2023-11-29.20:18:01::SCWMssOS::"Compiling standalone";
+
+TRACE::2023-11-29.20:18:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2023-11-29.20:18:03::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-29.20:18:03::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-11-29.20:18:03::SCWMssOS:: -Wextra"
+
+TRACE::2023-11-29.20:18:03::SCWMssOS::"Compiling uartlite"
+
+TRACE::2023-11-29.20:18:04::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-11-29.20:18:04::SCWMssOS::Copying to export directory.
+TRACE::2023-11-29.20:18:04::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-29.20:18:04::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-29.20:18:04::SCWSystem::Completed Processing the domain domain_microblaze_0
+LOG::2023-11-29.20:18:04::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-11-29.20:18:04::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-11-29.20:18:04::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-29.20:18:04::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-11-29.20:18:04::SCWSystem::dir created 
+TRACE::2023-11-29.20:18:04::SCWSystem::Writing the bif 
+TRACE::2023-11-29.20:18:04::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-29.20:18:04::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-29.20:18:04::SCWPlatform::Completed generating the platform
+TRACE::2023-11-29.20:18:04::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:18:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:18:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:18:04::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:18:04::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:18:04::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:18:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:18:04::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:18:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:18:04::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:18:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:18:04::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:18:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c72c26177a521c6a056a66b5a78daf8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"axi_uartlite_1",
+							"stdout":	"axi_uartlite_1",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-29.20:18:04::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-29.20:18:04::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:18:04::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:18:04::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:18:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:18:04::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:18:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:18:04::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:18:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:18:04::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:17::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:17::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:17::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:17::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:17::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:17::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:17::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:17::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:17::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:17::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:17::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:17::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:31::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:31::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:31::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:31::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:31::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:31::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:31::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:31::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:31::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:31::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:31::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:31::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:31::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:31::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:37::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:37::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:37::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:37::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:37::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:37::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:37::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:37::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:37::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:37::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:37::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:37::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:37::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:37::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:19:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:19:49::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"c72c26177a521c6a056a66b5a78daf8e",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"none",
+							"stdout":	"none",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-11-29.20:19:49::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:19:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:19:49::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Removing the swdes entry for  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::In reload Mss file.
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-29.20:19:49::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:19:49::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:19:49::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:19:49::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:19:49::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:19:49::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Removing the swdes entry for  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:49::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:49::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:49::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-11-29.20:19:49::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:19:49::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:19:49::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:49::SCWMssOS::Completed writing the mss file at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2023-11-29.20:19:49::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2023-11-29.20:19:57::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2023-11-29.20:19:57::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-11-29.20:19:57::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2023-11-29.20:19:57::SCWSystem::Checking the domain domain_microblaze_0
+LOG::2023-11-29.20:19:57::SCWSystem::Not a boot domain 
+LOG::2023-11-29.20:19:57::SCWSystem::Started Processing the domain domain_microblaze_0
+TRACE::2023-11-29.20:19:57::SCWDomain::Generating domain artifcats
+TRACE::2023-11-29.20:19:57::SCWMssOS::Generating standalone artifcats
+TRACE::2023-11-29.20:19:57::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-11-29.20:19:57::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:57::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:57::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:57::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:19:57::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:19:57::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:19:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:19:57::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:19:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:19:57::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+KEYINFO::2023-11-29.20:19:57::SCWMssOS::Could not open the swdb for system
+KEYINFO::2023-11-29.20:19:57::SCWMssOS::Could not open the sw design at  system
+ERROR: [Hsi 55-1558] Software Design system is not found
+
+TRACE::2023-11-29.20:19:57::SCWMssOS::Cleared the swdb table entry
+TRACE::2023-11-29.20:19:57::SCWMssOS::No sw design opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:57::SCWMssOS::mss exists loading the mss file  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:57::SCWMssOS::Opened the sw design from mss  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:57::SCWMssOS::Adding the swdes entry C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-11-29.20:19:57::SCWMssOS::updating the scw layer about changes
+TRACE::2023-11-29.20:19:57::SCWMssOS::Opened the sw design.  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:57::SCWMssOS::Completed writing the mss file at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp
+TRACE::2023-11-29.20:19:57::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:19:57::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-11-29.20:19:57::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-11-29.20:19:57::SCWDomain::Building the domain :  domain_microblaze_0
+TRACE::2023-11-29.20:19:57::SCWMssOS::doing bsp build ... 
+TRACE::2023-11-29.20:19:57::SCWMssOS::System Command Ran  C: & cd  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp & make 
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_4/src"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-29.20:19:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-29.20:19:58::SCWMssOS::-Wextra"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_11/src"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-11-29.20:19:58::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-11-29.20:19:58::SCWMssOS::-Wextra"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_11/src"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-29.20:19:58::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-11-29.20:19:58::SCWMssOS:: -Wextra"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_2/src"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-11-29.20:19:58::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-11-29.20:19:58::SCWMssOS::-Wall -Wextra"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-11-29.20:19:58::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-11-29.20:19:58::SCWMssOS::all -Wextra"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_4/src"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-29.20:19:58::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-29.20:19:58::SCWMssOS::xtra"
+
+TRACE::2023-11-29.20:19:58::SCWMssOS::"Compiling bram"
+
+TRACE::2023-11-29.20:19:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_11/src"
+
+TRACE::2023-11-29.20:19:59::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-11-29.20:19:59::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-11-29.20:19:59::SCWMssOS::xtra"
+
+TRACE::2023-11-29.20:19:59::SCWMssOS::"Compiling cpu"
+
+TRACE::2023-11-29.20:19:59::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_11/src"
+
+TRACE::2023-11-29.20:19:59::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_11/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-11-29.20:19:59::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-11-29.20:19:59::SCWMssOS::extra"
+
+TRACE::2023-11-29.20:19:59::SCWMssOS::"Compiling intc"
+
+TRACE::2023-11-29.20:20:00::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_2/src"
+
+TRACE::2023-11-29.20:20:00::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-11-29.20:20:00::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-11-29.20:20:00::SCWMssOS::ll -Wextra"
+
+TRACE::2023-11-29.20:20:00::SCWMssOS::"Compiling standalone";
+
+TRACE::2023-11-29.20:20:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_4/src"
+
+TRACE::2023-11-29.20:20:02::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_4/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-11-29.20:20:02::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-11-29.20:20:02::SCWMssOS:: -Wextra"
+
+TRACE::2023-11-29.20:20:02::SCWMssOS::"Compiling uartlite"
+
+TRACE::2023-11-29.20:20:03::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-11-29.20:20:03::SCWMssOS::Copying to export directory.
+TRACE::2023-11-29.20:20:03::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-11-29.20:20:03::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-11-29.20:20:03::SCWSystem::Completed Processing the domain domain_microblaze_0
+LOG::2023-11-29.20:20:03::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2023-11-29.20:20:03::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2023-11-29.20:20:03::SCWPlatform::Started preparing the platform 
+TRACE::2023-11-29.20:20:03::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2023-11-29.20:20:03::SCWSystem::dir created 
+TRACE::2023-11-29.20:20:03::SCWSystem::Writing the bif 
+TRACE::2023-11-29.20:20:03::SCWPlatform::Started writing the spfm file 
+TRACE::2023-11-29.20:20:03::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-11-29.20:20:03::SCWPlatform::Completed generating the platform
+TRACE::2023-11-29.20:20:03::SCWMssOS::Saving the mss changes C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:20:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-11-29.20:20:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-11-29.20:20:03::SCWMssOS::Commit changes completed.
+TRACE::2023-11-29.20:20:03::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:20:03::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:20:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:20:03::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:20:03::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:20:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:20:03::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:20:03::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"domain_microblaze_0",
+			"sysDefaultDom":	"domain_microblaze_0",
+			"domains":	[{
+					"domainName":	"domain_microblaze_0",
+					"domainDispName":	"domain_microblaze_0",
+					"domainDesc":	"domain_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.2",
+					"mssFile":	"",
+					"md5Digest":	"4cceda5ef521127533e13471a2ef934d",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"standalone":	{
+							"stdin":	"none",
+							"stdout":	"none",
+							"libOptionNames":	["stdin", "stdout"]
+						},
+						"libsContainingOptions":	["standalone"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-11-29.20:20:03::SCWPlatform::updated the xpfm file.
+TRACE::2023-11-29.20:20:03::SCWPlatform::Trying to open the hw design at C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform::DSA given C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform::DSA absoulate path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform::DSA directory C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw
+TRACE::2023-11-29.20:20:03::SCWPlatform:: Platform Path C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2023-11-29.20:20:03::SCWPlatform:: Unique name xilinx:nexys4_ddr::0.0
+TRACE::2023-11-29.20:20:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_5
+TRACE::2023-11-29.20:20:03::SCWPlatform::Opened existing hwdb design_1_wrapper_5
+TRACE::2023-11-29.20:20:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-11-29.20:20:03::SCWMssOS::Checking the sw design at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss
+TRACE::2023-11-29.20:20:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-11-29.20:20:03::SCWMssOS::Sw design exists and opened at  C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss

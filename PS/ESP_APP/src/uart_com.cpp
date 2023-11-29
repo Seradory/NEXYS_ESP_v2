@@ -8,11 +8,11 @@
 
 
 
-u8 single_byte_buffer[1] = { '\0' };
+u8 single_byte_buffer[15] = {};
 
 
 
-uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XIntc* InterruptController,u32 XINTC_DEV_ID,u8* Recv_Array,int is_first_interrupt){
+uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XIntc* InterruptController,u32 XINTC_DEV_ID,XUartLite_Handler FuncPtr){
 
 	this->InterruptController=InterruptController;
 	this->ULITE_INT_IRQ_ID=ULITE_INT_IRQ_ID;
@@ -20,23 +20,20 @@ uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XInt
 
 
 	XUartLite_Initialize(UPTR, ULITE_DEVICE_ID);
-	//XUartLite_SetSendHandler(UPTR, SendHandler, UPTR);
-	XUartLite_SetRecvHandler(UPTR, RecvHandler, UPTR);
+	XUartLite_SetSendHandler(UPTR, SendHandler, UPTR);
+	XUartLite_SetRecvHandler(UPTR, FuncPtr, UPTR);
 	XUartLite_EnableInterrupt(UPTR);
 
-	if(is_first_interrupt)
-	{
-		XIntc_Initialize(InterruptController, XINTC_DEV_ID);
-	};
+
+	XIntc_Initialize(InterruptController, XINTC_DEV_ID);
 
 	XIntc_Connect(InterruptController, ULITE_INT_IRQ_ID,(XInterruptHandler)XUartLite_InterruptHandler,(void *)UPTR);
-	if(is_first_interrupt)
-	{
-		XIntc_Start(InterruptController, XIN_REAL_MODE);
-		Xil_ExceptionInit();
-		Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler,&InterruptController);
-		Xil_ExceptionEnable();
-	};
+
+	XIntc_Start(InterruptController, XIN_REAL_MODE);
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler,&InterruptController);
+	Xil_ExceptionEnable();
+
 
 
 
@@ -63,15 +60,12 @@ void uart_com::uart_com_int_disable()
 
 
 
-void uart_com::SendHandler(void* CallbackRef, unsigned int EventData) {
+void SendHandler(void* CallbackRef, unsigned int EventData) {
     //uart_com* uartInstance = static_cast<uart_com*>(CallbackRef);
     // Burada SendHandler iþlemleri gerçekleþtirin
 }
 
-void uart_com::RecvHandler(void* CallbackRef, unsigned int EventData) {
 
-	XUartLite_Recv((XUartLite*)CallbackRef, single_byte_buffer, 1);
-}
 
 
 
