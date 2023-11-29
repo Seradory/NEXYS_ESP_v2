@@ -1,8 +1,15 @@
-2023-11-29T21:54:41.868333300255-21:54:41 **** Incremental Build of configuration Debug for project ESP_APP ****
+2023-11-29T21:57:25.206741400255-21:57:25 **** Incremental Build of configuration Debug for project ESP_APP ****
 000-make all 
 000-'Building file: ../src/main.cpp'
 000-'Invoking: MicroBlaze g++ compiler'
 000-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+000-In file included from ../src/main.cpp:8:
+000/ESP_APP/src/Timer.h15-1-1"TIMER_INT_ID" redefined1-../src/Timer.h:15: warning: "TIMER_INT_ID" redefined
+000-   15 | #define TIMER_INT_ID XPAR_MICROBLAZE_0_AXI_INTC_MYTIMER_0_INTERRUPT_INTR
+000-      | 
+000/ESP_APP/src/Timer.h10-1-1this is the location of the previous definition0-../src/Timer.h:10: note: this is the location of the previous definition
+000-   10 | #define TIMER_INT_ID 1
+000-      | 
 000-'Finished building: ../src/main.cpp'
 000-' '
 000-'Building target: ESP_APP.elf'
@@ -13,9 +20,9 @@
 000-'Invoking: MicroBlaze Print Size'
 000-mb-size ESP_APP.elf  |tee "ESP_APP.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000-   6580	    348	   3392	  10320	   2850	ESP_APP.elf
+000-  10284	    348	   3392	  14024	   36c8	ESP_APP.elf
 000-'Finished building: ESP_APP.elf.size'
 000-' '
 00255-
-21:54:42 Build Finished (took 708ms)
+21:57:25 Build Finished (took 612ms)
 

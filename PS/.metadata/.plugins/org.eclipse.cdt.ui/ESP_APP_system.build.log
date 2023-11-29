@@ -1,6 +1,6 @@
-21:54:42 **** Incremental Build of configuration Debug for project ESP_APP_system ****
+21:57:26 **** Incremental Build of configuration Debug for project ESP_APP_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-21:54:42 Build Finished (took 104ms)
+21:57:26 Build Finished (took 111ms)
 
