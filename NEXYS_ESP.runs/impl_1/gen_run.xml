@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1701277990">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1701368934">
   <File Type="BITSTR-BMM" Name="design_1_wrapper_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="design_1_wrapper_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="design_1_wrapper_timing_summary_init.rpt"/>
@@ -134,11 +134,10 @@
   <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_ilmb_v10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_uartlite_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_microblaze_0_axi_intc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_dlmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_ilmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_reset_inv_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="design_1_myTimer_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_1"/>
 </GenRun>

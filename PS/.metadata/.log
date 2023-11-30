@@ -2846,3 +2846,21 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-49: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-11-29 22:18:05.430
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-49: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 21:38:48.097
+!MESSAGE XSCT Command: [platform read {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/platform.spr}], Thread: Worker-288: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 21:38:48.292
+!MESSAGE XSCT command with result: [platform read {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-288: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-30 21:38:52.762
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-30 21:38:52.762
+!MESSAGE Preference loaded using local preference: C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 21:38:54.945
+!MESSAGE XSCT Command: [platform config -updatehw {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper_without_timer.xsa}], Thread: Worker-288: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 21:38:55.135
+!MESSAGE XSCT command with result: [platform config -updatehw {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper_without_timer.xsa}], Result: [null, ]. Thread: Worker-288: Updating hardware platform
