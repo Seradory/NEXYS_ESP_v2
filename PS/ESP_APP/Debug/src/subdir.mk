@@ -7,17 +7,14 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 CPP_SRCS += \
-../src/Timer.cpp \
 ../src/main.cpp \
 ../src/uart_com.cpp 
 
 OBJS += \
-./src/Timer.o \
 ./src/main.o \
 ./src/uart_com.o 
 
 CPP_DEPS += \
-./src/Timer.d \
 ./src/main.d \
 ./src/uart_com.d 
 

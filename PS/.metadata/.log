@@ -2864,3 +2864,2644 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-49: Launc
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 21:38:55.135
 !MESSAGE XSCT command with result: [platform config -updatehw {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper_without_timer.xsa}], Result: [null, ]. Thread: Worker-288: Updating hardware platform
+!SESSION 2023-11-30 23:11:21.906 -----------------------------------------------
+eclipse.buildId=2020.1
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-11-30 23:11:25.394
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-30 23:11:27.887
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-30 23:11:27.891
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-11-30 23:11:27.892
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 4 4 2023-11-30 23:11:28.119
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:31.332
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:31.332
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:31.336
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-8
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:31.339
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:31.340
+!MESSAGE XSCT Command: [setws C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS], Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:31.342
+!MESSAGE XSCT command with result: [setws C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS], Result: [null, ]. Thread: Thread-16
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:33.023
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:33.153
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:33.153
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:11:33.155
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2020.1/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.648
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.729
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.735
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.743
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.743
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.746
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-30 23:12:43.747
+!MESSAGE Generating MD5 hash for file: C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\domain_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.755
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.762
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_6": {"name": "freertos10_xilinx",
+"version": "1.6",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.3.0",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_6",
+},
+"standalone_v7_2": {"name": "standalone",
+"version": "7.2",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/lib/bsp/standalone_v7_2",
+},
+},
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.763
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.766
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.766
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.769
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.770
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.771
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, axi_uartlite_0 axi_uartlite_1 microblaze_0_axi_intc microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.772
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.775
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.4",
+},
+"axi_uartlite_1": {"name": "uartlite",
+"ver": "3.4",
+},
+"microblaze_0_axi_intc": {"name": "intc",
+"ver": "3.11",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.4",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.4",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.11",
+},
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.776
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.828
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_4": {"name": "uartlite",
+"version": "3.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_1": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_4": {"name": "uartlite",
+"version": "3.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"clk_wiz_v1_3": {"name": "clk_wiz",
+"version": "1.3",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"uartlite_v3_4": {"name": "uartlite",
+"version": "3.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"cpu_v2_11": {"name": "cpu",
+"version": "2.11",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_intc": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"intc_v3_11": {"name": "intc",
+"version": "3.11",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_11",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"bram_v4_4": {"name": "bram",
+"version": "4.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+"bram_v4_4": {"name": "bram",
+"version": "4.4",
+"repo": "C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"reset_inv_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+"xlconcat_0": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0 2.1",
+"repo": "{C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0} {C:/Xilinx/Vitis/2020.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_1}",
+},
+},
+},
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.831
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.834
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.834
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.837
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.947
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:43.951
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.096
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.100
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.104
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\ESP_APP\_ide\bitstream}], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.195
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\ESP_APP\_ide\bitstream}], Result: [null, ]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.226
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.233
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Thu Nov 30 21:28:51 2023",
+"vivado_version": "2020.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.236
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:12:45.253
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_1": {"hier_name": "axi_uartlite_1",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"reset_inv_0": {"hier_name": "reset_inv_0",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-2: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:00.305
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:00.309
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:00.309
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:00.312
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-30 23:13:00.313
+!MESSAGE Generating MD5 hash for file: C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\domain_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:00.314
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:00.315
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.252
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.256
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.257
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.276
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, {"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"axi_uartlite_1": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098816,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098820,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098828,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098824,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681728,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681732,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681736,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681740,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681744,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681748,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681752,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681756,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681760,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681984,
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681988,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.278
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.282
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_1_S_AXI": {"name": "axi_uartlite_1",
+"base": "0x40610000",
+"high": "0x4061FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00007FFF",
+"size": "32768",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.283
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_ENABLED], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.284
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.285
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.286
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.286
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.289
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.290
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.292
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.292
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_FREQ], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.303
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.304
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.318
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.319
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.335
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.339
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.342
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Result: [null, {}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.343
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.345
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.346
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.347
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:05.348
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY org.eclipse.tcf 4 0 2023-11-30 23:13:07.455
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1182)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.508
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.510
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.744
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.745
+!MESSAGE XSCT Command: [version -server], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.748
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.1]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.749
+!MESSAGE XSCT Command: [version], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.749
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.1
+SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.753
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.757
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.758
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.770
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.771
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.776
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.776
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.788
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.788
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.793
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.793
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.805
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.805
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.810
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.810
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.822
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.823
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.827
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.828
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.840
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.840
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level == 0}], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.853
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level == 0}], Result: [null, ]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.854
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.862
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.862
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.865
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-8: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.880
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.885
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.885
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.897
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.906
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.930
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.931
+!MESSAGE XSCT Command: [fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:07.933
+!MESSAGE XSCT command with result: [fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper.bit], Result: [{Format=couldn't open "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper.bit": no such file or directory, Time=1701375187933, Code=1}, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:16.051
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:16.055
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:16.056
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:16.062
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-30 23:13:16.063
+!MESSAGE Generating MD5 hash for file: C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\domain_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:16.064
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:16.066
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:18.945
+!MESSAGE XSCT Command: [platform read {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/platform.spr}], Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:19.049
+!MESSAGE XSCT command with result: [platform read {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:19.064
+!MESSAGE XSCT Command: [platform active {design_1_wrapper}], Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:19.066
+!MESSAGE XSCT command with result: [platform active {design_1_wrapper}], Result: [null, ]. Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:22.932
+!MESSAGE XSCT Command: [platform config -updatehw {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper_without_timer.xsa}], Thread: Worker-7: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:23.116
+!MESSAGE XSCT command with result: [platform config -updatehw {C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/design_1_wrapper_without_timer.xsa}], Result: [null, ]. Thread: Worker-7: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.544
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.548
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.548
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.623
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.623
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.628
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.629
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.634
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.2",
+}]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-11-30 23:13:27.635
+!MESSAGE Generating MD5 hash for file: C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\design_1_wrapper\export\design_1_wrapper\sw\design_1_wrapper\domain_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.635
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.638
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.977
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:27.982
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_1": {"hier_name": "axi_uartlite_1",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"reset_inv_0": {"hier_name": "reset_inv_0",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-8: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.960
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.965
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Thu Nov 30 21:28:51 2023",
+"vivado_version": "2020.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.981
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_ENABLED], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.983
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.983
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.985
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_PROFILE_SIZE], Result: [null, 0]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.985
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_FREQ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.986
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.993
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.995
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:31.996
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:32.000
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_1": {"hier_name": "axi_uartlite_1",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"reset_inv_0": {"hier_name": "reset_inv_0",
+"type": "util_vector_logic",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:32.001
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:32.003
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"device": "7a100t",
+"family": "artix7",
+"timestamp": "Thu Nov 30 21:28:51 2023",
+"vivado_version": "2020.1",
+"part": "xc7a100tcsg324-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.001
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.006
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.007
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.025
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, {"axi_uartlite_0": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033280,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033284,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033292,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080033288,
+},
+},
+"axi_uartlite_1": {"RX_FIFO": {"description": "Receive data FIFO",
+"address_offset": "0x0",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_DATA": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Receive Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098816,
+},
+"TX_FIFO": {"description": "Transmit data FIFO",
+"address_offset": "0x4",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"TX_DATA": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "UART Transmit Data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098820,
+},
+"CTRL_REG": {"description": "UART Lite control register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RST_TXFIFO": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the transmit FIFO
+Writing a 1 to this bit position clears the transmit FIFO
+  0 - Do nothing
+  1 - Clear the transmit FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RST_RXFIFO": {"access": "write-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Reset/clear the receive FIFO
+Writing a 1 to this bit position clears the receive FIFO
+  0 - Do nothing
+  1 - Clear the receive FIFO
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Enable_Intr": {"access": "write-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable interrupt for the AXI UART Lite
+  0 - Disable interrupt signal
+  1 - Enable interrupt signal
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098828,
+},
+"STAT_REG": {"description": "UART Lite status register",
+"address_offset": "0x8",
+"access": "read-only",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"RX_FIFO_Valid_Data": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO has data.
+  0 - Receive FIFO is empty
+  1 - Receive FIFO has data
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"RX_FIFO_Full": {"access": "read-only",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the receive FIFO is full.
+  0 - Receive FIFO is not full
+  1 - Receive FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Empty": {"access": "read-only",
+"bit_offset": "2",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is empty.
+  0 - Transmit FIFO is not empty
+  1 - Transmit FIFO is empty
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"TX_FIFO_Full": {"access": "read-only",
+"bit_offset": "3",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates if the transmit FIFO is full.
+  0 - Transmit FIFO is not full
+  1 - Transmit FIFO is full
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Intr_Enabled": {"access": "read-only",
+"bit_offset": "4",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that interrupts is enabled.
+  0 - Interrupt is disabled
+  1 - Interrupt is enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Overrun_Error": {"access": "read-only",
+"bit_offset": "5",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a overrun error has occurred after the last time the status register was read. Overrun is when a new character has been received but the receive FIFO is full. The received character is ignored and not written into the receive FIFO. This bit is cleared when the status register is read.      0 - No overrun error has occurred      1 - Overrun error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Frame_Error": {"access": "read-only",
+"bit_offset": "6",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a frame error has occurred after the last time the status register was read. Frame error is defined as detection of a stop bit with the value 0. The receive character is ignored and not written to the receive FIFO. This bit is cleared when the status register is read.      0 - No frame error has occurred   1 - Frame error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Parity_Error": {"access": "read-only",
+"bit_offset": "7",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Indicates that a parity error has occurred after the last time the status register was read. If the UART is configured without any parity handling, this bit is always 0. The received character is written into the receive FIFO. This bit is cleared when the status register is read.      0 - No parity error has occurred      1 - Parity error has occurred
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1080098824,
+},
+},
+"microblaze_0_axi_intc": {"ISR": {"description": "Interrupt Status Register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Status Register.
+For each bit up to number of periperhal interrupts:
+  R - Reads active interrupt signal.
+  W - No effect after MER HIE bit has been set, otherwise writes active interrupt signal.
+For remaining bits defined by number of software interrupts:
+  R - Reads software interrupt value.
+  W - Writes software interrupt value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681728,
+},
+"IPR": {"description": "Interrupt Pending Register",
+"address_offset": "0x4",
+"access": "read-only",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Pending Register.
+For each bit:
+  R - Reads logical AND of bits in ISR and IER.
+  W - No effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681732,
+},
+"IER": {"description": "Interrupt Enable Register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Enable Register.
+For each bit:
+  R - Reads interrupt enable value.
+  W - Writes interrupt enable value.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681736,
+},
+"IAR": {"description": "Interrupt Acknowledge Register",
+"address_offset": "0xC",
+"access": "write-only",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "write-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Acknowledge Register.
+For each bit:
+  W - Acknowledge interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681740,
+},
+"SIE": {"description": "Set Interrupt Enables",
+"address_offset": "0x10",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Set Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 enables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681744,
+},
+"CIE": {"description": "Clear Interrupt Enables",
+"address_offset": "0x14",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Clear Interrupt Enables
+For each bit:
+  R - Reads active interrupt.
+  W - Writing 1 disables the interrupt, writing 0 has no effect.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681748,
+},
+"IVR": {"description": "Interrupt Vector Register",
+"address_offset": "0x18",
+"access": "read-only",
+"size": "5",
+"interface": "S_AXI",
+"fields": {"IVN": {"access": "read-only",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "Interrupt Vector Number.
+  R - Reads ordinal of highest priority, enabled, active interrupt.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681752,
+},
+"MER": {"description": "Master Enable Register",
+"address_offset": "0x1C",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"ME": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master IRQ Enable.
+  0 - All interrupts disabled.
+  1 - All interrupts can be enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"HIE": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Hardware Interrupt Enable.
+  0 - HW interrupts disabled.
+  1 - HW interrupts enabled.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681756,
+},
+"IMR": {"description": "Interrupt Mode Register",
+"address_offset": "0x20",
+"access": "read-write",
+"size": "2",
+"interface": "S_AXI",
+"fields": {"INT": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "2",
+"desc": "Interrupt Mode Register.
+For each bit:
+  R - Reads interrupt mode.
+  W - Sets interrupt mode, where 0 is normal mode and 1 is fast mode.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681760,
+},
+"IVAR[0]": {"description": "Interrupt Vector Address Register 0",
+"address_offset": "0x100",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 0 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681984,
+},
+"IVAR[1]": {"description": "Interrupt Vector Address Register 1",
+"address_offset": "0x104",
+"access": "read-write",
+"size": "32",
+"interface": "S_AXI",
+"fields": {"IVA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "Interrupt vector address of active interrupt 1 with highest priority.
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+"memoryAddr": 1092681988,
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {},
+}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.026
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.031
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, {"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_1_S_AXI": {"name": "axi_uartlite_1",
+"base": "0x40610000",
+"high": "0x4061FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_axi_intc_s_axi": {"name": "microblaze_0_axi_intc",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "s_axi",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00007FFF",
+"size": "32768",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.032
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.038
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.039
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.043
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Result: [null, {}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.044
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.047
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.048
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.065
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa mdm_1], Result: [null, microblaze_0]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.065
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.080
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.080
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.084
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.085
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.086
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.087
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.093
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.093
+!MESSAGE XSCT Command: [version -server], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.095
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.1]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.096
+!MESSAGE XSCT Command: [version], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.098
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.1
+SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.099
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.105
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.106
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.121
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.122
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.128
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.128
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.142
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.143
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.149
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.149
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.163
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.164
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.169
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.169
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.182
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.182
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.187
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.187
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.200
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.201
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level == 0}], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.214
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level == 0}], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.215
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.217
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.217
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.220
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.232
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.238
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A6EFB1A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.239
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.252
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.254
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.280
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:42.281
+!MESSAGE XSCT Command: [fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.476
+!MESSAGE XSCT command with result: [fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.492
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.506
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.508
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.535
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs], Result: [null, design_1_wrapper_4]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.536
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.538
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.538
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.551
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.551
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.555
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:44.556
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.559
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.559
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.571
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.572
+!MESSAGE XSCT Command: [dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.633
+!MESSAGE XSCT command with result: [dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.717
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.731
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.731
+!MESSAGE XSCT Command: [con], Thread: Worker-6: Launching Debugger_ESP_APP-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-11-30 23:13:47.741
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-6: Launching Debugger_ESP_APP-Default
