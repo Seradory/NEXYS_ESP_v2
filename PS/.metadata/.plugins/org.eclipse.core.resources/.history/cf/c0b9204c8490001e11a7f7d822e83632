@@ -1,0 +1,93 @@
+
+
+#include "xil_io.h"
+#include "xil_types.h"
+#include "sleep.h"
+#include "xil_printf.h"
+#include "xintc.h"
+
+
+#include "xparameters.h"
+#include "xil_exception.h"
+#include "xuartlite.h"
+#include "uart_com.h"
+#include <stdlib.h>
+
+static XIntc InterruptController;
+static XUartLite UPTR_PC;
+static XUartLite UPTR_ESP;
+int PC_RECV=0;
+int ESP_RECV=0;
+
+int full_cycle_pc=0;
+
+u8 pc_recv_data[50]={};
+u8 pc_temp_data='\0';
+int pc_recv_index=0;
+int pc_recv_counter=0;
+
+void RecvHandlerESP(void* CallbackRef, unsigned int EventData);
+void RecvHandlerPC(void* CallbackRef, unsigned int EventData);
+int main(){
+
+
+	uart_com u1(XPAR_AXI_UARTLITE_1_DEVICE_ID, XPAR_INTC_0_UARTLITE_1_VEC_ID,&UPTR_PC, &InterruptController, XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID, RecvHandlerPC);
+	u1.uart_com_int_enable();
+
+	uart_com u2(XPAR_AXI_UARTLITE_0_DEVICE_ID, XPAR_INTC_0_UARTLITE_0_VEC_ID,&UPTR_ESP, &InterruptController, XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID, RecvHandlerESP);
+	u2.uart_com_int_enable();
+
+	while(true){
+
+
+		while(PC_RECV==1){
+			XUartLite_Recv(&UPTR_PC,&pc_temp_data, 1);
+
+			pc_recv_data[pc_recv_index]=pc_temp_data;
+			pc_recv_index++;
+			if(pc_recv_index==16){
+				pc_recv_index=16;
+			};
+			if(u1.is_recv_fifo_empty()){
+				PC_RECV=0;
+				xil_printf("\n%d",pc_recv_index);
+			}
+
+		}
+
+
+
+
+		if(u1.is_recv_fifo_full()){
+			full_cycle_pc++;
+			if(full_cycle_pc>100){
+				XUartLite_ResetFifos(&UPTR_PC);
+				full_cycle_pc=0;
+				//PC_RECV=0;
+			}
+		}
+
+		if(pc_recv_index>0){
+			pc_recv_counter++;
+			if(pc_recv_counter>90000){ //100 byte
+				u1.uart_com_send(pc_recv_data, pc_recv_index);
+				for(int i=0;i<pc_recv_index;i++){pc_recv_data[i]='\0';}
+				pc_recv_index=0;
+				pc_recv_counter=0;
+			}
+
+
+
+		}
+	}
+
+	return 0;
+}
+
+
+void RecvHandlerESP(void* CallbackRef, unsigned int EventData) {
+	ESP_RECV=1;
+}
+void RecvHandlerPC(void* CallbackRef, unsigned int EventData) {
+	PC_RECV=1;
+}

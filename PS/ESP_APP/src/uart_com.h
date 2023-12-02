@@ -29,7 +29,8 @@ public:
 	void uart_com_send(u8* Send_Array,int length);
 	void uart_com_int_enable();
 	void uart_com_int_disable();
-
+	int is_recv_fifo_full();
+	int is_recv_fifo_valid_data();
 
 
 

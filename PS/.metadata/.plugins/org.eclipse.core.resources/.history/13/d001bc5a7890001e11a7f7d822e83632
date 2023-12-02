@@ -1,0 +1,49 @@
+
+
+#include "xil_io.h"
+#include "xil_types.h"
+#include "sleep.h"
+#include "xil_printf.h"
+#include "xintc.h"
+
+
+#include "xparameters.h"
+#include "xil_exception.h"
+#include "xuartlite.h"
+#include "uart_com.h"
+
+static XIntc InterruptController;
+static XUartLite UPTR_PC;
+static XUartLite UPTR_ESP;
+int PC_RECV=0;
+int ESP_RECV=0;
+
+
+void RecvHandlerESP(void* CallbackRef, unsigned int EventData);
+void RecvHandlerPC(void* CallbackRef, unsigned int EventData);
+int main(){
+
+
+	uart_com u1(XPAR_AXI_UARTLITE_1_DEVICE_ID, XPAR_INTC_0_UARTLITE_1_VEC_ID,&UPTR_PC, &InterruptController, XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID, RecvHandlerPC);
+	u1.uart_com_int_enable();
+
+	uart_com u2(XPAR_AXI_UARTLITE_0_DEVICE_ID, XPAR_INTC_0_UARTLITE_0_VEC_ID,&UPTR_ESP, &InterruptController, XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID, RecvHandlerESP);
+	u2.uart_com_int_enable();
+
+	while(true){
+
+
+
+
+	}
+
+	return 0;
+}
+
+
+void RecvHandlerESP(void* CallbackRef, unsigned int EventData) {
+	ESP_RECV=1;
+}
+void RecvHandlerPC(void* CallbackRef, unsigned int EventData) {
+	PC_RECV=1;
+}

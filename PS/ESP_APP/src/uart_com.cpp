@@ -44,7 +44,27 @@ uart_com::uart_com(u32 ULITE_DEVICE_ID,u32 ULITE_INT_IRQ_ID,XUartLite* UPTR,XInt
 
 void uart_com::uart_com_send(u8* Send_Array,int length)
 {
-	XUartLite_Send(UPTR, Send_Array, length);
+
+	int rem_byte=16-(length%16);
+	for(int i=0;i<rem_byte;i++)
+	{
+		*(Send_Array+length+i)=(u8)32;
+	}
+
+	length=length+rem_byte;
+
+
+	for(int j=0;j<(length/16);j++)
+	{
+		while(XUartLite_IsSending(UPTR)){};
+		XUartLite_Send(UPTR, (Send_Array+(16*j)), 16);
+	}
+
+
+
+
+
+
 }
 
 void uart_com::uart_com_int_enable()
@@ -57,6 +77,19 @@ void uart_com::uart_com_int_disable()
 	XIntc_Disable(InterruptController, ULITE_INT_IRQ_ID);
 }
 
+int uart_com::is_recv_fifo_valid_data(){
+	u32 stat_reg=Xil_In32(UPTR->RegBaseAddress+0x08);
+	return (stat_reg & 0x000000001);
+
+}
+
+int uart_com::is_recv_fifo_full(){
+	u32 stat_reg=Xil_In32(UPTR->RegBaseAddress+0x08);
+	u32 stat_reg2=stat_reg;
+	stat_reg=stat_reg>>1;
+	stat_reg2=stat_reg2>>5;
+	return ((stat_reg & 0x000000001) || (stat_reg2 & 0x000000001));
+}
 
 
 

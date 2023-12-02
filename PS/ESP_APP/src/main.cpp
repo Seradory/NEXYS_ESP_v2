@@ -6,16 +6,25 @@
 #include "xil_printf.h"
 #include "xintc.h"
 
+
 #include "xparameters.h"
 #include "xil_exception.h"
 #include "xuartlite.h"
 #include "uart_com.h"
+#include <stdlib.h>
 
 static XIntc InterruptController;
 static XUartLite UPTR_PC;
 static XUartLite UPTR_ESP;
+int PC_RECV=0;
+int ESP_RECV=0;
 
+int full_cycle_pc=0;
 
+u8 pc_recv_data[3200]={};
+u8 pc_temp_data='\0';
+int pc_recv_index=0;
+int pc_recv_counter=0;
 
 void RecvHandlerESP(void* CallbackRef, unsigned int EventData);
 void RecvHandlerPC(void* CallbackRef, unsigned int EventData);
@@ -27,34 +36,67 @@ int main(){
 
 	uart_com u2(XPAR_AXI_UARTLITE_0_DEVICE_ID, XPAR_INTC_0_UARTLITE_0_VEC_ID,&UPTR_ESP, &InterruptController, XPAR_MICROBLAZE_0_AXI_INTC_DEVICE_ID, RecvHandlerESP);
 	u2.uart_com_int_enable();
-	//u2.uart_com_send((u8*)"1", 1);
+
 	while(true){
 
-		sleep(4);
-		u2.uart_com_send((u8*)"test", 4);
+
+		while(PC_RECV==1){
+			if(u1.is_recv_fifo_valid_data()){
+				XUartLite_Recv(&UPTR_PC,&pc_temp_data, 1);
+				pc_recv_data[pc_recv_index]=pc_temp_data;
+				pc_recv_index++;
+				//timer start
+			}
+
+			pc_recv_counter++;
+			if(pc_recv_counter>3000000){
+
+				u1.uart_com_send(pc_recv_data, pc_recv_index);
+
+				for(int i=0;i<pc_recv_index;i++){pc_recv_data[i]='\0';}
+				pc_recv_index=0;
+				pc_recv_counter=0;
+				PC_RECV=0;
+			}
 
 
+
+		}
+
+
+
+
+		if(u1.is_recv_fifo_full()){
+			full_cycle_pc++;
+			if(full_cycle_pc>100){
+				XUartLite_ResetFifos(&UPTR_PC);
+				full_cycle_pc=0;
+				//PC_RECV=0;
+			}
+		}
+
+		//if(pc_recv_index>0){
+		//	pc_recv_counter++;
+		//	if(pc_recv_counter>90){ //100 byte
+		//		u1.uart_com_send(pc_recv_data, pc_recv_index);
+		//		for(int i=0;i<pc_recv_index;i++){pc_recv_data[i]='\0';}
+		//		pc_recv_index=0;
+		//		pc_recv_counter=0;
+		//	}
+
+
+
+		//}
 	}
-
-
-
-
-
-
-
-
-
-
 
 	return 0;
 }
 
 
 void RecvHandlerESP(void* CallbackRef, unsigned int EventData) {
-	u8 single_byte_buffer[1]={};
-	XUartLite_Recv((XUartLite*)CallbackRef, single_byte_buffer, 1);
+	ESP_RECV=1;
+
 }
 void RecvHandlerPC(void* CallbackRef, unsigned int EventData) {
-	u8 single_byte_buffer[1]={};
-	XUartLite_Recv((XUartLite*)CallbackRef, single_byte_buffer, 1);
+	PC_RECV=1;
 }

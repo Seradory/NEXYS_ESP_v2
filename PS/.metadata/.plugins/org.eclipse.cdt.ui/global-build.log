@@ -1,9 +1,23 @@
-23:13:26 **** Incremental Build of project design_1_wrapper ****
-buildplatform.bat 54287 design_1_wrapper no_domain_build 
-XSDB Server Channel: tcfchan#3
-23:13:27 **** Incremental Build of configuration Debug for project ESP_APP ****
+Nothing to build in platform 'design_1_wrapper'
+
+00:48:21 **** Incremental Build of configuration Debug for project ESP_APP ****
 make all 
-make: Nothing to be done for 'all'.
-23:13:27 **** Incremental Build of configuration Debug for project ESP_APP_system ****
+'Building file: ../src/main.cpp'
+'Invoking: MicroBlaze g++ compiler'
+mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -IC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cpp"
+'Finished building: ../src/main.cpp'
+' '
+'Building target: ESP_APP.elf'
+'Invoking: MicroBlaze g++ linker'
+mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ESP_APP.elf"  ./src/main.o ./src/uart_com.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+'Finished building target: ESP_APP.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ESP_APP.elf  |tee "ESP_APP.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   8284	    340	   6616	  15240	   3b88	ESP_APP.elf
+'Finished building: ESP_APP.elf.size'
+' '
+00:48:22 **** Incremental Build of configuration Debug for project ESP_APP_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

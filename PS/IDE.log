@@ -762,3 +762,1774 @@ con
 
 22:15:44 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
 22:16:15 INFO  : Disconnected from the channel tcfchan#27.
+23:11:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\temp_xsdb_launch_script.tcl
+23:11:31 INFO  : XSCT server has started successfully.
+23:11:31 INFO  : plnx-install-location is set to ''
+23:11:31 INFO  : Successfully done setting XSCT server connection channel  
+23:11:31 INFO  : Successfully done setting workspace for the tool. 
+23:11:33 INFO  : Platform repository initialization has completed.
+23:11:33 INFO  : Successfully done query RDI_DATADIR 
+23:11:33 INFO  : Registering command handlers for Vitis TCF services
+23:12:43 INFO  : Result from executing command 'getProjects': design_1_wrapper
+23:12:43 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+23:12:43 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:12:43 INFO  : Updating application flags with new BSP settings...
+23:12:43 INFO  : Successfully updated application flags for project ESP_APP.
+23:12:45 INFO  : The hardware specfication used by project 'ESP_APP' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+23:12:45 INFO  : The file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\ESP_APP\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+23:12:45 INFO  : The file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\ESP_APP\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+23:12:45 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\ESP_APP\_ide\bitstream' in project 'ESP_APP'.
+23:13:00 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:13:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:13:07 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:13:07 INFO  : 'jtag frequency' command is executed.
+23:13:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:13:07 ERROR : couldn't open "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+23:13:07 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: couldn't open "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+23:13:07 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+23:13:07 ERROR : couldn't open "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper.bit": no such file or directory
+23:13:16 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:13:23 INFO  : Hardware specification for platform project 'design_1_wrapper' is updated.
+23:13:27 INFO  : Result from executing command 'getProjects': design_1_wrapper
+23:13:27 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+23:13:27 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:13:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:13:42 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:13:42 INFO  : 'jtag frequency' command is executed.
+23:13:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:13:44 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:13:44 INFO  : Context for processor 'microblaze_0' is selected.
+23:13:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:13:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:13:44 INFO  : Context for processor 'microblaze_0' is selected.
+23:13:44 INFO  : System reset is completed.
+23:13:47 INFO  : 'after 3000' command is executed.
+23:13:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:13:47 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:13:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:13:47 INFO  : Context for processor 'microblaze_0' is selected.
+23:13:47 INFO  : 'con' command is executed.
+23:13:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:13:47 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:14:09 INFO  : Disconnected from the channel tcfchan#2.
+20:37:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\temp_xsdb_launch_script.tcl
+20:37:33 INFO  : XSCT server has started successfully.
+20:37:34 INFO  : plnx-install-location is set to ''
+20:37:34 INFO  : Successfully done setting XSCT server connection channel  
+20:37:34 INFO  : Successfully done setting workspace for the tool. 
+20:37:41 INFO  : Platform repository initialization has completed.
+20:37:42 INFO  : Registering command handlers for Vitis TCF services
+20:37:46 INFO  : Successfully done query RDI_DATADIR 
+21:20:33 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:43:17 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:43:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:43:30 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:43:30 INFO  : 'jtag frequency' command is executed.
+21:43:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:43:32 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:43:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:33 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:43:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:43:33 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:33 INFO  : System reset is completed.
+21:43:36 INFO  : 'after 3000' command is executed.
+21:43:36 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:36 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:43:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:43:36 INFO  : Context for processor 'microblaze_0' is selected.
+21:43:36 INFO  : 'con' command is executed.
+21:43:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:43:36 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:49:36 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:49:39 INFO  : Disconnected from the channel tcfchan#1.
+21:49:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:49:40 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:49:40 INFO  : 'jtag frequency' command is executed.
+21:49:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:49:43 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:49:43 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:49:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:49:43 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:43 INFO  : System reset is completed.
+21:49:46 INFO  : 'after 3000' command is executed.
+21:49:46 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:46 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:49:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:49:46 INFO  : Context for processor 'microblaze_0' is selected.
+21:49:46 INFO  : 'con' command is executed.
+21:49:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:49:46 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:50:36 INFO  : Disconnected from the channel tcfchan#2.
+21:50:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:50:37 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:50:37 INFO  : 'jtag frequency' command is executed.
+21:50:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:50:39 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:50:40 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:50:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:50:40 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:40 INFO  : System reset is completed.
+21:50:43 INFO  : 'after 3000' command is executed.
+21:50:43 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:43 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:50:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:50:43 INFO  : Context for processor 'microblaze_0' is selected.
+21:50:43 INFO  : 'con' command is executed.
+21:50:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:50:43 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:51:11 INFO  : Disconnected from the channel tcfchan#3.
+21:51:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:51:12 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:51:12 INFO  : 'jtag frequency' command is executed.
+21:51:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:51:15 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:51:15 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:51:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:51:15 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:15 INFO  : System reset is completed.
+21:51:18 INFO  : 'after 3000' command is executed.
+21:51:18 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:18 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:51:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:51:18 INFO  : Context for processor 'microblaze_0' is selected.
+21:51:18 INFO  : 'con' command is executed.
+21:51:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:51:18 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:52:10 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:52:11 INFO  : Disconnected from the channel tcfchan#4.
+21:52:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:52:13 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:52:13 INFO  : 'jtag frequency' command is executed.
+21:52:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:52:15 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:52:15 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:15 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:52:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:52:15 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:15 INFO  : System reset is completed.
+21:52:18 INFO  : 'after 3000' command is executed.
+21:52:18 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:18 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:52:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:52:19 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:19 INFO  : 'con' command is executed.
+21:52:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:52:19 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:52:26 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:52:27 INFO  : Disconnected from the channel tcfchan#5.
+21:52:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:52:29 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:52:29 INFO  : 'jtag frequency' command is executed.
+21:52:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:52:31 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:52:31 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:31 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:52:31 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:52:31 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:31 INFO  : System reset is completed.
+21:52:34 INFO  : 'after 3000' command is executed.
+21:52:34 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:34 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:52:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:52:34 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:34 INFO  : 'con' command is executed.
+21:52:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:52:34 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:52:41 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:52:44 INFO  : Disconnected from the channel tcfchan#6.
+21:52:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:52:45 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:52:45 INFO  : 'jtag frequency' command is executed.
+21:52:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:52:47 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:52:47 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:52:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:52:47 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:47 INFO  : System reset is completed.
+21:52:50 INFO  : 'after 3000' command is executed.
+21:52:50 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:50 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:52:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:52:50 INFO  : Context for processor 'microblaze_0' is selected.
+21:52:50 INFO  : 'con' command is executed.
+21:52:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:52:50 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:54:45 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:54:50 INFO  : Disconnected from the channel tcfchan#7.
+21:54:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:54:51 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:54:51 INFO  : 'jtag frequency' command is executed.
+21:54:52 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:54:54 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:54:54 INFO  : Context for processor 'microblaze_0' is selected.
+21:54:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:54:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:54:54 INFO  : Context for processor 'microblaze_0' is selected.
+21:54:54 INFO  : System reset is completed.
+21:54:57 INFO  : 'after 3000' command is executed.
+21:54:57 INFO  : Context for processor 'microblaze_0' is selected.
+21:54:57 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:54:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:54:57 INFO  : Context for processor 'microblaze_0' is selected.
+21:54:57 INFO  : 'con' command is executed.
+21:54:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:54:57 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:55:42 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:55:44 INFO  : Disconnected from the channel tcfchan#8.
+21:55:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:55:45 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:55:45 INFO  : 'jtag frequency' command is executed.
+21:55:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:55:47 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:55:47 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:55:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:55:47 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:47 INFO  : System reset is completed.
+21:55:50 INFO  : 'after 3000' command is executed.
+21:55:50 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:50 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:55:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:55:51 INFO  : Context for processor 'microblaze_0' is selected.
+21:55:51 INFO  : 'con' command is executed.
+21:55:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:55:51 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+21:57:29 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:58:46 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:59:09 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:59:21 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+21:59:25 INFO  : Disconnected from the channel tcfchan#9.
+21:59:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:59:26 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+21:59:26 INFO  : 'jtag frequency' command is executed.
+21:59:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+21:59:28 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+21:59:28 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+21:59:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+21:59:29 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:29 INFO  : System reset is completed.
+21:59:32 INFO  : 'after 3000' command is executed.
+21:59:32 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:32 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+21:59:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+21:59:32 INFO  : Context for processor 'microblaze_0' is selected.
+21:59:32 INFO  : 'con' command is executed.
+21:59:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+21:59:32 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:04:14 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:04:26 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:04:36 INFO  : Disconnected from the channel tcfchan#10.
+22:04:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:04:37 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:04:37 INFO  : 'jtag frequency' command is executed.
+22:04:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:04:39 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:04:39 INFO  : Context for processor 'microblaze_0' is selected.
+22:04:39 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:04:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:04:39 INFO  : Context for processor 'microblaze_0' is selected.
+22:04:39 INFO  : System reset is completed.
+22:04:42 INFO  : 'after 3000' command is executed.
+22:04:42 INFO  : Context for processor 'microblaze_0' is selected.
+22:04:42 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:04:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:04:42 INFO  : Context for processor 'microblaze_0' is selected.
+22:04:43 INFO  : 'con' command is executed.
+22:04:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:04:43 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:06:21 INFO  : Disconnected from the channel tcfchan#11.
+22:06:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:06:23 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:06:23 INFO  : 'jtag frequency' command is executed.
+22:06:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:06:25 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:06:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:25 INFO  : System reset is completed.
+22:06:28 INFO  : 'after 3000' command is executed.
+22:06:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:28 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:06:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:06:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:06:29 INFO  : 'con' command is executed.
+22:06:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:06:29 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:08:39 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:08:40 INFO  : Disconnected from the channel tcfchan#12.
+22:08:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:08:41 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:08:41 INFO  : 'jtag frequency' command is executed.
+22:08:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:08:43 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:08:43 INFO  : Context for processor 'microblaze_0' is selected.
+22:08:43 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:08:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:08:43 INFO  : Context for processor 'microblaze_0' is selected.
+22:08:43 INFO  : System reset is completed.
+22:08:46 INFO  : 'after 3000' command is executed.
+22:08:46 INFO  : Context for processor 'microblaze_0' is selected.
+22:08:46 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:08:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:08:47 INFO  : Context for processor 'microblaze_0' is selected.
+22:08:47 INFO  : 'con' command is executed.
+22:08:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:08:47 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:09:53 INFO  : Disconnected from the channel tcfchan#13.
+22:09:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:09:55 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:09:55 INFO  : 'jtag frequency' command is executed.
+22:09:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:09:57 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:09:57 INFO  : Context for processor 'microblaze_0' is selected.
+22:09:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:09:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:09:57 INFO  : Context for processor 'microblaze_0' is selected.
+22:09:57 INFO  : System reset is completed.
+22:10:00 INFO  : 'after 3000' command is executed.
+22:10:00 INFO  : Context for processor 'microblaze_0' is selected.
+22:10:00 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:10:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:10:00 INFO  : Context for processor 'microblaze_0' is selected.
+22:10:01 INFO  : 'con' command is executed.
+22:10:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:10:01 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:10:28 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:10:30 INFO  : Disconnected from the channel tcfchan#14.
+22:10:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:10:31 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:10:31 INFO  : 'jtag frequency' command is executed.
+22:10:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:10:33 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:10:33 INFO  : Context for processor 'microblaze_0' is selected.
+22:10:33 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:10:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:10:34 INFO  : Context for processor 'microblaze_0' is selected.
+22:10:34 INFO  : System reset is completed.
+22:10:37 INFO  : 'after 3000' command is executed.
+22:10:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:10:37 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:10:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:10:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:10:37 INFO  : 'con' command is executed.
+22:10:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:10:37 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:10:58 INFO  : Disconnected from the channel tcfchan#15.
+22:10:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:10:59 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:10:59 INFO  : 'jtag frequency' command is executed.
+22:10:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:11:01 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:11:01 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:11:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:11:02 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:02 INFO  : System reset is completed.
+22:11:05 INFO  : 'after 3000' command is executed.
+22:11:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:05 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:11:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:11:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:11:05 INFO  : 'con' command is executed.
+22:11:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:11:05 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:11:18 INFO  : Disconnected from the channel tcfchan#16.
+22:11:56 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:12:12 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:12:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:12:17 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:12:17 INFO  : 'jtag frequency' command is executed.
+22:12:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:12:19 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:12:19 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:12:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:12:20 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:20 INFO  : System reset is completed.
+22:12:22 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:12:23 INFO  : 'after 3000' command is executed.
+22:12:23 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:23 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:12:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:12:23 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:23 INFO  : 'con' command is executed.
+22:12:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:12:23 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:12:24 INFO  : Disconnected from the channel tcfchan#17.
+22:12:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:12:25 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:12:25 INFO  : 'jtag frequency' command is executed.
+22:12:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:12:28 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:12:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:12:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:12:28 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:28 INFO  : System reset is completed.
+22:12:31 INFO  : 'after 3000' command is executed.
+22:12:31 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:31 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:12:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:12:31 INFO  : Context for processor 'microblaze_0' is selected.
+22:12:31 INFO  : 'con' command is executed.
+22:12:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:12:31 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:23:29 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:23:30 INFO  : Disconnected from the channel tcfchan#18.
+22:23:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:23:31 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:23:31 INFO  : 'jtag frequency' command is executed.
+22:23:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:23:34 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:23:34 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:34 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:23:34 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:23:34 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:34 INFO  : System reset is completed.
+22:23:37 INFO  : 'after 3000' command is executed.
+22:23:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:37 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:23:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:23:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:23:37 INFO  : 'con' command is executed.
+22:23:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:23:37 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:25:09 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:25:11 INFO  : Disconnected from the channel tcfchan#19.
+22:25:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:25:12 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:25:12 INFO  : 'jtag frequency' command is executed.
+22:25:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:25:14 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:25:14 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:14 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:25:14 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:25:14 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:14 INFO  : System reset is completed.
+22:25:17 INFO  : 'after 3000' command is executed.
+22:25:17 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:17 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:25:17 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:25:17 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:18 INFO  : 'con' command is executed.
+22:25:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:25:18 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:25:35 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:25:37 INFO  : Disconnected from the channel tcfchan#20.
+22:25:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:25:38 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:25:38 INFO  : 'jtag frequency' command is executed.
+22:25:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:25:40 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:25:41 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:41 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:25:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:25:41 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:41 INFO  : System reset is completed.
+22:25:44 INFO  : 'after 3000' command is executed.
+22:25:44 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:44 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:25:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:25:44 INFO  : Context for processor 'microblaze_0' is selected.
+22:25:44 INFO  : 'con' command is executed.
+22:25:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:25:44 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:26:50 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:26:52 INFO  : Disconnected from the channel tcfchan#21.
+22:26:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:26:53 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:26:53 INFO  : 'jtag frequency' command is executed.
+22:26:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:26:55 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:26:55 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:26:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:26:56 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:56 INFO  : System reset is completed.
+22:26:59 INFO  : 'after 3000' command is executed.
+22:26:59 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:59 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:26:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:26:59 INFO  : Context for processor 'microblaze_0' is selected.
+22:26:59 INFO  : 'con' command is executed.
+22:26:59 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:26:59 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:37:56 INFO  : Disconnected from the channel tcfchan#22.
+22:37:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:37:58 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:37:58 INFO  : 'jtag frequency' command is executed.
+22:37:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:37:59 ERROR : 'fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit' is cancelled.
+22:37:59 ERROR : Exception occured while running Program FPGA.
+java.lang.RuntimeException: 'fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit' is cancelled.
+22:37:59 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+22:37:59 ERROR : 'fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit' is cancelled.
+22:38:01 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:38:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:38:02 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:38:02 INFO  : 'jtag frequency' command is executed.
+22:38:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:38:05 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:38:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:38:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:38:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:38:05 INFO  : System reset is completed.
+22:38:08 INFO  : 'after 3000' command is executed.
+22:38:08 INFO  : Context for processor 'microblaze_0' is selected.
+22:38:08 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:38:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:38:08 INFO  : Context for processor 'microblaze_0' is selected.
+22:38:08 INFO  : 'con' command is executed.
+22:38:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:38:08 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:51:37 INFO  : Successfully done sdx_reload_mss "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss"
+22:51:43 INFO  : (SwPlaform) Successfully done setParamInSpec 
+22:51:45 INFO  : (SwPlaform) Successfully done setParamInSpec 
+22:51:45 INFO  : (SwPlatform) Successfully done update_mss 
+22:51:46 INFO  : Successfully done sdx_reload_mss "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/microblaze_0/domain_microblaze_0/bsp/system.mss"
+22:51:59 INFO  : Result from executing command 'getProjects': design_1_wrapper
+22:51:59 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+22:51:59 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:51:59 INFO  : Updating application flags with new BSP settings...
+22:51:59 INFO  : Successfully updated application flags for project ESP_APP.
+22:52:02 INFO  : Disconnected from the channel tcfchan#23.
+22:52:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:52:03 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:52:03 INFO  : 'jtag frequency' command is executed.
+22:52:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:52:05 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:52:05 INFO  : Context for processor 'microblaze_0' is selected.
+22:52:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:52:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:52:06 INFO  : Context for processor 'microblaze_0' is selected.
+22:52:06 INFO  : System reset is completed.
+22:52:09 INFO  : 'after 3000' command is executed.
+22:52:09 INFO  : Context for processor 'microblaze_0' is selected.
+22:52:09 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:52:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:52:09 INFO  : Context for processor 'microblaze_0' is selected.
+22:52:09 INFO  : 'con' command is executed.
+22:52:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:52:09 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:56:32 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:56:34 INFO  : Disconnected from the channel tcfchan#25.
+22:56:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:56:35 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:56:35 INFO  : 'jtag frequency' command is executed.
+22:56:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:56:37 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:56:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:56:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:56:37 INFO  : Context for processor 'microblaze_0' is selected.
+22:56:37 INFO  : System reset is completed.
+22:56:40 INFO  : 'after 3000' command is executed.
+22:56:40 INFO  : Context for processor 'microblaze_0' is selected.
+22:56:41 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:56:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:56:41 INFO  : Context for processor 'microblaze_0' is selected.
+22:56:41 INFO  : 'con' command is executed.
+22:56:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:56:41 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+22:58:01 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+22:58:02 INFO  : Disconnected from the channel tcfchan#26.
+22:58:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:58:04 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+22:58:04 INFO  : 'jtag frequency' command is executed.
+22:58:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+22:58:06 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+22:58:06 INFO  : Context for processor 'microblaze_0' is selected.
+22:58:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+22:58:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+22:58:06 INFO  : Context for processor 'microblaze_0' is selected.
+22:58:06 INFO  : System reset is completed.
+22:58:09 INFO  : 'after 3000' command is executed.
+22:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+22:58:09 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+22:58:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+22:58:09 INFO  : Context for processor 'microblaze_0' is selected.
+22:58:09 INFO  : 'con' command is executed.
+22:58:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+22:58:09 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:00:39 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:00:41 INFO  : Disconnected from the channel tcfchan#27.
+23:00:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:00:43 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:00:43 INFO  : 'jtag frequency' command is executed.
+23:00:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:00:45 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:00:45 INFO  : Context for processor 'microblaze_0' is selected.
+23:00:45 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:00:45 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:00:45 INFO  : Context for processor 'microblaze_0' is selected.
+23:00:45 INFO  : System reset is completed.
+23:00:48 INFO  : 'after 3000' command is executed.
+23:00:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:00:48 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:00:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:00:48 INFO  : Context for processor 'microblaze_0' is selected.
+23:00:48 INFO  : 'con' command is executed.
+23:00:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:00:48 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:01:12 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:01:14 INFO  : Disconnected from the channel tcfchan#28.
+23:01:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:01:15 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:01:15 INFO  : 'jtag frequency' command is executed.
+23:01:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:01:17 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:01:18 INFO  : Context for processor 'microblaze_0' is selected.
+23:01:18 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:01:18 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:01:18 INFO  : Context for processor 'microblaze_0' is selected.
+23:01:18 INFO  : System reset is completed.
+23:01:21 INFO  : 'after 3000' command is executed.
+23:01:21 INFO  : Context for processor 'microblaze_0' is selected.
+23:01:21 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:01:21 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:01:21 INFO  : Context for processor 'microblaze_0' is selected.
+23:01:21 INFO  : 'con' command is executed.
+23:01:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:01:21 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:02:00 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:02:02 INFO  : Disconnected from the channel tcfchan#29.
+23:02:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:02:03 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:02:03 INFO  : 'jtag frequency' command is executed.
+23:02:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:02:05 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:02:05 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:02:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:02:05 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:05 INFO  : System reset is completed.
+23:02:08 INFO  : 'after 3000' command is executed.
+23:02:08 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:08 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:02:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:02:08 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:08 INFO  : 'con' command is executed.
+23:02:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:02:08 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:02:34 INFO  : Disconnected from the channel tcfchan#30.
+23:02:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:02:35 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:02:35 INFO  : 'jtag frequency' command is executed.
+23:02:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:02:38 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:02:38 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:02:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:02:38 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:38 INFO  : System reset is completed.
+23:02:39 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:02:41 INFO  : 'after 3000' command is executed.
+23:02:41 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:41 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:02:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:02:41 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:41 INFO  : 'con' command is executed.
+23:02:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:02:41 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:02:43 INFO  : Disconnected from the channel tcfchan#31.
+23:02:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:02:44 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:02:44 INFO  : 'jtag frequency' command is executed.
+23:02:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:02:46 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:02:46 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:02:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:02:46 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:46 INFO  : System reset is completed.
+23:02:49 INFO  : 'after 3000' command is executed.
+23:02:49 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:49 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:02:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:02:49 INFO  : Context for processor 'microblaze_0' is selected.
+23:02:49 INFO  : 'con' command is executed.
+23:02:49 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:02:49 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:05:17 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:05:23 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+23:05:24 INFO  : Disconnected from the channel tcfchan#32.
+23:05:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:05:26 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+23:05:26 INFO  : 'jtag frequency' command is executed.
+23:05:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+23:05:28 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+23:05:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:05:28 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+23:05:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:05:28 INFO  : Context for processor 'microblaze_0' is selected.
+23:05:28 INFO  : System reset is completed.
+23:05:31 INFO  : 'after 3000' command is executed.
+23:05:31 INFO  : Context for processor 'microblaze_0' is selected.
+23:05:31 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+23:05:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+23:05:31 INFO  : Context for processor 'microblaze_0' is selected.
+23:05:31 INFO  : 'con' command is executed.
+23:05:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:05:31 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+23:58:29 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:01:14 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:01:21 INFO  : Disconnected from the channel tcfchan#33.
+00:01:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:01:22 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:01:22 INFO  : 'jtag frequency' command is executed.
+00:01:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:01:25 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:01:25 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:01:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:01:25 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:25 INFO  : System reset is completed.
+00:01:28 INFO  : 'after 3000' command is executed.
+00:01:28 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:28 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:01:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:01:28 INFO  : Context for processor 'microblaze_0' is selected.
+00:01:28 INFO  : 'con' command is executed.
+00:01:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:01:28 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:01:58 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:02:04 INFO  : Disconnected from the channel tcfchan#34.
+00:02:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:02:05 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:02:06 INFO  : 'jtag frequency' command is executed.
+00:02:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:02:08 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:02:08 INFO  : Context for processor 'microblaze_0' is selected.
+00:02:08 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:02:08 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:02:08 INFO  : Context for processor 'microblaze_0' is selected.
+00:02:08 INFO  : System reset is completed.
+00:02:11 INFO  : 'after 3000' command is executed.
+00:02:11 INFO  : Context for processor 'microblaze_0' is selected.
+00:02:11 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:02:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:02:11 INFO  : Context for processor 'microblaze_0' is selected.
+00:02:11 INFO  : 'con' command is executed.
+00:02:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:02:11 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:06:26 INFO  : Disconnected from the channel tcfchan#35.
+00:06:27 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:06:34 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:06:34 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:06:34 INFO  : 'jtag frequency' command is executed.
+00:06:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:06:36 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:06:36 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:06:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:06:36 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:36 INFO  : System reset is completed.
+00:06:39 INFO  : 'after 3000' command is executed.
+00:06:39 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:39 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:06:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:06:39 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:40 INFO  : 'con' command is executed.
+00:06:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:06:40 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:08:00 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:08:04 INFO  : Disconnected from the channel tcfchan#36.
+00:08:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:08:05 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:08:05 INFO  : 'jtag frequency' command is executed.
+00:08:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:08:07 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:08:07 INFO  : Context for processor 'microblaze_0' is selected.
+00:08:07 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:08:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:08:07 INFO  : Context for processor 'microblaze_0' is selected.
+00:08:07 INFO  : System reset is completed.
+00:08:10 INFO  : 'after 3000' command is executed.
+00:08:10 INFO  : Context for processor 'microblaze_0' is selected.
+00:08:11 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:08:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:08:11 INFO  : Context for processor 'microblaze_0' is selected.
+00:08:11 INFO  : 'con' command is executed.
+00:08:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:08:11 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:13:11 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:13:13 INFO  : Disconnected from the channel tcfchan#37.
+00:13:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:13:14 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:13:14 INFO  : 'jtag frequency' command is executed.
+00:13:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:13:16 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:13:16 INFO  : Context for processor 'microblaze_0' is selected.
+00:13:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:13:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:13:16 INFO  : Context for processor 'microblaze_0' is selected.
+00:13:16 INFO  : System reset is completed.
+00:13:19 INFO  : 'after 3000' command is executed.
+00:13:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:13:19 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:13:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:13:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:13:20 INFO  : 'con' command is executed.
+00:13:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:13:20 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:16:59 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:17:02 INFO  : Disconnected from the channel tcfchan#38.
+00:17:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:17:03 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:17:03 INFO  : 'jtag frequency' command is executed.
+00:17:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:17:06 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:17:06 INFO  : Context for processor 'microblaze_0' is selected.
+00:17:06 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:17:06 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:17:06 INFO  : Context for processor 'microblaze_0' is selected.
+00:17:06 INFO  : System reset is completed.
+00:17:09 INFO  : 'after 3000' command is executed.
+00:17:09 INFO  : Context for processor 'microblaze_0' is selected.
+00:17:09 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:17:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:17:09 INFO  : Context for processor 'microblaze_0' is selected.
+00:17:09 INFO  : 'con' command is executed.
+00:17:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:17:09 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:23:09 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:23:19 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:29:14 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:29:26 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:30:23 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:34:39 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:34:43 INFO  : Disconnected from the channel tcfchan#39.
+00:34:44 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:34:44 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:34:44 INFO  : 'jtag frequency' command is executed.
+00:34:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:34:46 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:34:46 INFO  : Context for processor 'microblaze_0' is selected.
+00:34:46 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:34:46 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:34:46 INFO  : Context for processor 'microblaze_0' is selected.
+00:34:46 INFO  : System reset is completed.
+00:34:49 INFO  : 'after 3000' command is executed.
+00:34:49 INFO  : Context for processor 'microblaze_0' is selected.
+00:34:49 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:34:49 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:34:49 INFO  : Context for processor 'microblaze_0' is selected.
+00:34:50 INFO  : 'con' command is executed.
+00:34:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:34:50 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:35:00 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:35:13 INFO  : Disconnected from the channel tcfchan#40.
+00:35:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:35:14 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:35:14 INFO  : 'jtag frequency' command is executed.
+00:35:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:35:16 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:35:16 INFO  : Context for processor 'microblaze_0' is selected.
+00:35:16 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:35:16 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:35:16 INFO  : Context for processor 'microblaze_0' is selected.
+00:35:16 INFO  : System reset is completed.
+00:35:19 INFO  : 'after 3000' command is executed.
+00:35:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:35:19 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:35:19 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:35:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:35:20 INFO  : 'con' command is executed.
+00:35:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:35:20 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:37:40 INFO  : Disconnected from the channel tcfchan#41.
+00:38:51 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:38:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:38:59 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:38:59 INFO  : 'jtag frequency' command is executed.
+00:38:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:39:01 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:39:01 INFO  : Context for processor 'microblaze_0' is selected.
+00:39:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:39:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:39:01 INFO  : Context for processor 'microblaze_0' is selected.
+00:39:01 INFO  : System reset is completed.
+00:39:04 INFO  : 'after 3000' command is executed.
+00:39:04 INFO  : Context for processor 'microblaze_0' is selected.
+00:39:04 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:39:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:39:04 INFO  : Context for processor 'microblaze_0' is selected.
+00:39:04 INFO  : 'con' command is executed.
+00:39:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:39:04 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:41:24 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:41:29 INFO  : Disconnected from the channel tcfchan#42.
+00:41:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:41:30 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:41:30 INFO  : 'jtag frequency' command is executed.
+00:41:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:41:32 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:41:32 INFO  : Context for processor 'microblaze_0' is selected.
+00:41:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:41:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:41:32 INFO  : Context for processor 'microblaze_0' is selected.
+00:41:32 INFO  : System reset is completed.
+00:41:35 INFO  : 'after 3000' command is executed.
+00:41:35 INFO  : Context for processor 'microblaze_0' is selected.
+00:41:35 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:41:35 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:41:36 INFO  : Context for processor 'microblaze_0' is selected.
+00:41:36 INFO  : 'con' command is executed.
+00:41:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:41:36 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:46:10 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:46:13 INFO  : Disconnected from the channel tcfchan#43.
+00:46:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:46:15 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:46:15 INFO  : 'jtag frequency' command is executed.
+00:46:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:46:17 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:46:17 INFO  : Context for processor 'microblaze_0' is selected.
+00:46:17 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:46:17 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:46:17 INFO  : Context for processor 'microblaze_0' is selected.
+00:46:17 INFO  : System reset is completed.
+00:46:20 INFO  : 'after 3000' command is executed.
+00:46:20 INFO  : Context for processor 'microblaze_0' is selected.
+00:46:20 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:46:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:46:20 INFO  : Context for processor 'microblaze_0' is selected.
+00:46:20 INFO  : 'con' command is executed.
+00:46:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:46:20 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:47:40 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:47:44 INFO  : Disconnected from the channel tcfchan#44.
+00:47:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:47:45 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:47:45 INFO  : 'jtag frequency' command is executed.
+00:47:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:47:47 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:47:47 INFO  : Context for processor 'microblaze_0' is selected.
+00:47:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:47:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:47:47 INFO  : Context for processor 'microblaze_0' is selected.
+00:47:47 INFO  : System reset is completed.
+00:47:50 INFO  : 'after 3000' command is executed.
+00:47:50 INFO  : Context for processor 'microblaze_0' is selected.
+00:47:51 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:47:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:47:51 INFO  : Context for processor 'microblaze_0' is selected.
+00:47:51 INFO  : 'con' command is executed.
+00:47:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:47:51 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
+00:48:21 INFO  : Checking for BSP changes to sync application flags for project 'ESP_APP'...
+00:48:23 INFO  : Disconnected from the channel tcfchan#45.
+00:48:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:48:25 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A6EFB1A' is selected.
+00:48:25 INFO  : 'jtag frequency' command is executed.
+00:48:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}' command is executed.
+00:48:27 INFO  : FPGA configured successfully with bitstream "C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit"
+00:48:27 INFO  : Context for processor 'microblaze_0' is selected.
+00:48:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa'.
+00:48:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:48:27 INFO  : Context for processor 'microblaze_0' is selected.
+00:48:27 INFO  : System reset is completed.
+00:48:30 INFO  : 'after 3000' command is executed.
+00:48:30 INFO  : Context for processor 'microblaze_0' is selected.
+00:48:30 INFO  : The application 'C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf' is downloaded to processor 'microblaze_0'.
+00:48:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A6EFB1A" && level==0 && jtag_device_ctx=="jsn-Nexys4DDR-210292A6EFB1A-13631093-0"}
+fpga -file C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/_ide/bitstream/design_1_wrapper_without_timer.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper_without_timer.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/ESP_APP/Debug/ESP_APP.elf
+----------------End of Script----------------
+
+00:48:30 INFO  : Context for processor 'microblaze_0' is selected.
+00:48:30 INFO  : 'con' command is executed.
+00:48:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:48:30 INFO  : Launch script is exported to file 'C:\Users\alise\Desktop\VIVADO\PROJECTS\NEXYS_ESP\PS\.sdk\launch_scripts\single_application_debug\debugger_esp_app-default.tcl'
