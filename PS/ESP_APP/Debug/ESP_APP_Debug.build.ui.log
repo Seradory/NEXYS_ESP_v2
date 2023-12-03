@@ -1,21 +1,6 @@
-2023-11-29T22:17:54.848646800255-22:17:54 **** Incremental Build of configuration Debug for project ESP_APP ****
+2023-12-03T08:40:52.055060600255-08:40:52 **** Incremental Build of configuration Debug for project ESP_APP ****
 000-make all 
-000-'Building file: ../src/uart_com.cpp'
-000-'Invoking: MicroBlaze g++ compiler'
-000-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_com.o" -IC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uart_com.d" -MT"src/uart_com.o" -o "src/uart_com.o" "../src/uart_com.cpp"
-000-'Finished building: ../src/uart_com.cpp'
-000-' '
-000-'Building target: ESP_APP.elf'
-000-'Invoking: MicroBlaze g++ linker'
-000-mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ESP_APP.elf"  ./src/Timer.o ./src/main.o ./src/uart_com.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-000-'Finished building target: ESP_APP.elf'
-000-' '
-000-'Invoking: MicroBlaze Print Size'
-000-mb-size ESP_APP.elf  |tee "ESP_APP.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-  10284	    348	   3392	  14024	   36c8	ESP_APP.elf
-000-'Finished building: ESP_APP.elf.size'
-000-' '
+000-make: Nothing to be done for 'all'.
 00255-
-22:17:55 Build Finished (took 539ms)
+08:40:52 Build Finished (took 134ms)
 

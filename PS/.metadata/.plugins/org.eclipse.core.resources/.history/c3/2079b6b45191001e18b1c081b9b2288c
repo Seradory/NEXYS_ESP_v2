@@ -1,0 +1,31 @@
+#ifndef TIMER_H
+#define TIMER_H
+
+#include "xparameters.h"
+#include "xil_types.h"
+#include "xintc.h"
+#include "xil_exception.h"
+
+// TimerHandler iþlevini tanýmlayýn
+typedef void (*TimerHandler)(void*);
+
+class Timer {
+private:
+    XIntc* InterruptController_class;
+    u32 timer_count_enable_reg;
+    u32 timer_count_value_data;
+    u32 timer_count_value_load;
+    u32 timer_reset;
+    TimerHandler timerHandler; // Ýþlev iþlemi için iþaretçi
+
+public:
+    Timer(u32 count_value, XIntc* XIntcInstancePtr,u32 Timer_Base_Adress, TimerHandler handler);
+
+    void timer_start();
+    void timer_change_count_value(u32 count_value);
+    void timer_reset_en();
+    void timer_int_enable();
+    void timer_int_disable();
+};
+
+#endif

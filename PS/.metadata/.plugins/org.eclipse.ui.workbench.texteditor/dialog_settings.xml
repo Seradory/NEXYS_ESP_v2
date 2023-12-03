@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="XPAR_MICROBLAZE_0_AXI_INTC_AXI_UARTLITE_" key="selection"/>
+		<item value="MY" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="MY"/>
+			<item value="mytimer"/>
 			<item value="XPAR_MICROBLAZE_0_AXI_INTC_AXI_UARTLITE_"/>
 			<item value="XPAR_MICROBLAZE_0_AXI_INTC_AXI_UARTLITE_1_INTERRUPT_INTR"/>
 			<item value="UARTLITE_INT_IRQ_ID"/>
@@ -21,7 +23,6 @@
 			<item value="IRQ"/>
 			<item value="uart"/>
 			<item value="timer"/>
-			<item value="TİMER"/>
 		</list>
 		<list key="replacehistory">
 		</list>

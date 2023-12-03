@@ -5,20 +5,20 @@ int count=0;
 
 void Timer_Int_Handler(void *CallbackRef);
 
-Timer::Timer(u32 count_value,XIntc *XIntcInstancePtr){
-	InterruptController_class=XIntcInstancePtr;
+Timer::Timer(u32 count_value, XIntc *XIntcInstancePtr, TimerHandlerFunction handler)
+: InterruptController_class(XIntcInstancePtr), handler(handler) {
 	Xil_Out32(timer_count_value_data, count_value);
-
 	Xil_Out32(timer_count_value_load, 0x01);
 	Xil_Out32(timer_count_value_load, 0x00);
 
+	u32 status;
 
-	XIntc_Initialize(InterruptController_class, INTC_DEVICE_ID);
-	XIntc_Connect(InterruptController_class, TIMER_INT_ID,(XInterruptHandler)Timer_Int_Handler,(void *)0);
-	XIntc_Start(InterruptController_class, XIN_REAL_MODE);
+	status=XIntc_Initialize(InterruptController_class, INTC_DEVICE_ID);
+	status=XIntc_Connect(InterruptController_class, TIMER_INT_ID, handler, nullptr);
+	status=XIntc_Start(InterruptController_class, XIN_REAL_MODE);
 	XIntc_Enable(InterruptController_class, TIMER_INT_ID);
 	Xil_ExceptionInit();
-	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler,InterruptController_class);
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT, (Xil_ExceptionHandler)XIntc_InterruptHandler, InterruptController_class);
 	Xil_ExceptionEnable();
 }
 

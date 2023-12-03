@@ -1,23 +1,8 @@
 Nothing to build in platform 'design_1_wrapper'
 
-22:17:54 **** Incremental Build of configuration Debug for project ESP_APP ****
+08:40:52 **** Incremental Build of configuration Debug for project ESP_APP ****
 make all 
-'Building file: ../src/uart_com.cpp'
-'Invoking: MicroBlaze g++ compiler'
-mb-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_com.o" -IC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/uart_com.d" -MT"src/uart_com.o" -o "src/uart_com.o" "../src/uart_com.cpp"
-'Finished building: ../src/uart_com.cpp'
-' '
-'Building target: ESP_APP.elf'
-'Invoking: MicroBlaze g++ linker'
-mb-g++ -Wl,-T -Wl,../src/lscript.ld -LC:/Users/alise/Desktop/VIVADO/PROJECTS/NEXYS_ESP/PS/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/domain_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ESP_APP.elf"  ./src/Timer.o ./src/main.o ./src/uart_com.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
-'Finished building target: ESP_APP.elf'
-' '
-'Invoking: MicroBlaze Print Size'
-mb-size ESP_APP.elf  |tee "ESP_APP.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  10284	    348	   3392	  14024	   36c8	ESP_APP.elf
-'Finished building: ESP_APP.elf.size'
-' '
-22:17:55 **** Incremental Build of configuration Debug for project ESP_APP_system ****
+make: Nothing to be done for 'all'.
+08:40:52 **** Incremental Build of configuration Debug for project ESP_APP_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
